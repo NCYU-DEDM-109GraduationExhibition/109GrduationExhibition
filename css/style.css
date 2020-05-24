@@ -84,8 +84,8 @@ nav.navbar.at_top {
     z-index: 50;
     margin: 30px auto 100px auto;
     width: 50vw;
-    height: 32.1vw;
-    border-radius: 20px; }
+    height: 32.1vw; 
+  }
   #header_index .stick_rt_l, #header_index .stick_lb_l {
     width: 15%;
     height: 2.5vw;
