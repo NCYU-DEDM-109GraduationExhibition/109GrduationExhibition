@@ -1567,4 +1567,9 @@ html.fixWindow {
 .dropdown-item {
   color: white;
 }
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
 /*# sourceMappingURL=mystyle.css.map */
