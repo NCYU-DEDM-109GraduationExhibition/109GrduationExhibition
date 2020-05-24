@@ -1,0 +1,204 @@
+$red: #c30d23
+$blue: #2ea7e0
+$textShadow: #24749B
+$bg_red : #c30d23
+$bg_blue : #2ea7e0
+$text-shadow-blue : #23749a
+$text-shadow-red : #931e23
+$color_button : #3c9cce
+$button_shadow : #23749a
+$color_brown : #40210f
+
+@media screen and(min-width:481px)
+    *
+        font-family: 'Microsoft Yahei Bold', 'Noto Sans TC','Microsoft Yahei'
+    // $red: #C62D3E
+    // $blue: #5EAFDB
+    html,body
+        margin : 0
+        overflow-x : hidden
+    section#section_slide,section#section_click
+        position: relative
+    //------------------------
+        background-color: #fff
+    section#section_click
+        padding: 3% 0px 0% 0px
+    section#section_slide
+        padding: 10% 0px 3% 0px
+    section#section_slide
+        background : linear-gradient(13deg , $red 0%,$red 50% ,$blue 50%, $blue 100%)
+        background-size: cover
+        .flexslider
+            z-index : 50
+            position: relative
+        .streak_r
+            width : 15%
+            height : 150px
+            position: absolute
+            right : 0%
+            top : 50%
+            opacity : 0.2
+            transform: translate(-30%,-20%) rotate(90deg)
+            .line
+                width : 5%
+                height : 150px
+                background-color: #fff
+                margin-left : 5%
+                float : left
+        .round_lbslide
+            width : 125px
+            height : 125px
+            position: absolute
+            left : 0
+            bottom : 0
+            transform: translateY(-50%)
+            .circle
+                width : 15px
+                height : 15px
+                border-radius : 100%
+                background-color: white
+                float : left
+                margin : 8%
+    .round_lbslide-1,.round_rt,.round_lbclick
+        width : 180px
+        height : 160px
+        position: absolute
+        transform : translate(27%,20%)
+        opacity : 0.2
+        .circle
+            width : 15px
+            height : 15px
+            border-radius : 100%
+            float : left
+            margin : 8px
+            background-color: black
+            padding : 9px
+    .round_lbslide-1
+        left : 0
+        bottom : 20%
+    section#section_click
+        // background: #2ea7e0
+        background: linear-gradient(170deg , #c30d23 0%,#c30d23 30% ,#2ea7e0 30%, #2ea7e0 100%)
+        background-size: cover
+        // background-image: url(../images/bg033.png)
+        // background-repeat: no-repeat
+    
+        // padding : 30px
+        .round_rt
+            right : 0
+            top : 0
+            transform: rotate(45deg) translate(-30%,20%)
+        .row
+            display: flex
+            justify-content: space-around
+            padding : 3% 10% 3% 10%
+            // margin-bottom: 3%
+    
+        .col-md,.col-lg,.col-xl-2
+            flex-direction: column
+            display: flex
+            justify-content: center
+            align-items: center
+            margin: 0 1rem 0 1rem
+            .text
+                text-align: center
+                font-family:  'Noto Sans TC','Microsoft Yahei Bold','Microsoft Yahei'
+                font-weight: 900
+                font-size: 1.6rem
+                color: white
+                margin: 1.5rem 0 1.5rem 0
+                text-shadow: 0.3rem 0.15rem 0 rgba(0,0,0,0.4)
+        // .col-xl-2
+        //     margin: 0 1rem 0 2rem
+        .block
+            width : 185px
+            height : 185px
+            float : left
+            position: relative
+            z-index : 50
+            box-shadow: 0.3rem 0.3rem 0 0 rgba(0,0,0,0.4)
+            img
+                max-width : 100%
+                height: auto
+            .img-fluid
+            
+        .streak_center
+            width : 15%
+            height : 150px
+            position: absolute
+            left : 50%
+            top : 50%
+            opacity : 0.2
+            .line
+                width : 5%
+                height : 150px
+                background-color: #fff
+                margin-left : 5%
+                float : left
+        .round_rb
+            width : 125px
+            height : 125px
+            position: relative
+            margin-left: 100%
+            .circle
+                width : 15px
+                height : 15px
+                border-radius : 100%
+                background-color: white
+                margin : 8px
+                float : left
+                padding : 9px
+        .round_lbclick
+            left : 0
+            bottom : 0
+            transform: rotate(45deg) translate(30%,-100%)
+    .flexslider.carousel
+        box-shadow: 0.5rem 0.5rem 0 0 rgba(0,0,0,0.4)
+        // height: 600px
+        // li
+        //     height: 700px
+        //     width: auto
+        //     img
+        //         height: 700px
+        //         width: auto
+    .flex-control-paging
+        li
+            a.flex-active
+                background-color: rgba(0,0,0,0.4)
+            a
+                background-color: #fff
+    
+    //滑過去
+    .flexslider:hover .flex-direction-nav .flex-prev::before
+        color: rgba(0,0,0,0.8)
+    .flexslider .flex-direction-nav .flex-prev
+    
+    
+    .slides
+        li
+            width: 1100px
+    
+    
+    
+    //NavBar
+    nav.navbar
+        transition : 0.5s
+        a
+            transition : 0.5s
+    // 上方導覽列透明
+    // .navbar-default
+    //     background-color: $bg_red
+    // nav.navbar.at_top
+    //     background-color: $bg_red
+    //     a,a:visited
+    //         color : white
+    // .navbar-brand
+    //     position: relative
+    //     padding : 0
+    //     font-weight: 900
+    //     width : 30%
+    // .nav_icon
+    //     width : 70%
+    // .title,.nav_icon
+    //     float: left
+    //     margin-top: 0.3vw

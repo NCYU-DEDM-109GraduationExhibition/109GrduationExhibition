@@ -1,0 +1,872 @@
+$RedGrey: #C62D3E
+$TextRed: #AA2220
+$BlueGrey: #5EAFDB
+$dotWhite: #fff
+
+// $red: #BE1622
+// $blue: #36A9E1
+$red: #c30d23
+$blue: #2ea7e0
+*
+    // border: solid 1px black
+    // font-family:  'Noto Sans TC','serif'
+    // font-size: 62.5%
+
+
+@media screen and (min-width: 481px) and (max-width: 768px)
+
+    
+    html,body
+        position: relative
+        width: 100%
+        // height: 100%   
+        padding: 0
+        margin: 0
+    body::-webkit-scrollbar //chrome隱藏scrollbar
+        display: none
+    body
+        overflow: hidden
+        background-color: #2ea7e0
+    //-------------------Bar大小---------------------
+    @mixin barCubeSize($width: 13vw,$height: 13vw)
+        width: $width    
+        height: $height
+        background-color: trasparent
+        display: flex
+        flex-direction: row
+        flex-wrap: nowrap
+        justify-content: space-around
+    @mixin barSize
+        flex: 1
+        margin: 0 3%
+        width: auto
+        background-color: $RedGrey
+    //-------------------Dot大小---------------------
+    @mixin dotCubeSize
+        width: 14.4vw
+        height: 14.4vw
+        background-color: transparent
+        display: flex
+        padding: 0
+        flex-direction: row
+        flex-wrap: wrap
+    @mixin dotSize
+        width: calc(100%/5)
+        height: calc(100%/5)
+        background-color: $RedGrey
+        border-radius: 50vh
+        box-sizing: border-box
+    // ------------------動畫區域--------------------------
+    @keyframes fadeIn
+        0%
+            opacity: 0
+        50%
+            opacity: 0.5
+        100%
+            opacity: 1
+    @mixin fadeInSet
+        animation-duration: 2.0s
+        animation-timing-function: ease
+        animation-fill-mode: forwards
+        opacity: 0
+    // ---------------文字浮現動畫-------------------
+    @keyframes textFade
+        0%
+            opacity: 0
+        50%
+            opacity: 0.5
+        100%
+            opacity: 1
+    @mixin textFadeSet
+        animation-duration: 2.0s
+        animation-timing-function: ease-in-out
+        animation-fill-mode: forwards
+        opacity: 0
+    // ----------------Bar & dot 浮現動畫-----------------------
+    @keyframes fadeIn2
+        0%
+            opacity: 0
+        100%
+            opacity: 1
+    @mixin fadeInSet2
+        animation-duration: 2.0s
+        animation-timing-function: ease
+        animation-fill-mode: forwards
+        opacity: 0
+    //
+    //---------------正規化---------------------
+    .selector-for-some-widget 
+    	box-sizing: content-box 
+    // --------------Banner----------------------
+    section#section_banner
+        display: flex
+        position: relative
+        margin: 0
+        padding: 0
+        background-size: cover
+        background:  linear-gradient(180deg , $red 0%,$red 50% ,$blue 50%, $blue 100%)
+        // background-image: url(../images/bg011.png)
+        // background-repeat: no-repeat
+    
+    .container-fluid  
+        position: relative
+        font-weight: 900
+        margin: 0
+        padding: 0
+        overflow: hidden
+    #BG1
+        position: relative
+        margin: 0
+        padding: 0
+    .redBG
+        position: absolute
+        width: 100%
+        margin: 0
+        padding: 0
+        overflow: hidden
+        z-index: 50
+        img
+            max-width: 100%
+            margin: 0
+    .blueBG
+        position: absolute
+        width: 100%
+        margin: 0
+        padding: 0
+        z-index: 50
+        img
+            max-width: 100%
+            margin: 0
+            
+    
+    // --------------Page1紅色區域----------------------
+    .Camera
+        position: absolute
+        z-index: 2
+        margin-left: 6%
+        // opacity: 0.5
+        img
+            filter: grayscale(100%)
+        width: 27.5%
+        height: auto
+    
+    .designBG
+        position: absolute
+        width: 16%
+        margin-left: 41.8%
+        margin-top: 16.75%
+    .bb
+        border: solid red 10px
+        width: 50vw
+        height: 100%
+        position: absolute
+        z-index: 190
+    .designText2
+        position: absolute
+        z-index: 10
+        width: 28% 
+        color: #ae1e24
+        font-weight: bold
+        margin-left: 62.5%
+        margin-top: 17.5%
+        font-family: 'Microsoft Yahei','Microsoft Yahei Bold', 'Noto Sans TC'
+    .dedmBG
+        position: absolute
+        width: 16%
+        z-index: 10
+        margin-left: 41.8%
+        margin-top: 36%
+    .barCube1
+        +barCubeSize
+        position: absolute
+        z-index: 2
+        margin-left: 17%
+        margin-top: -2%
+        z-index: 55
+        .graybar1
+            +barSize
+            position: relative
+            +fadeInSet
+            // animation-name: fadeIn
+    .dotCube1
+        +dotCubeSize
+        position: absolute
+        margin-left: 29%
+        margin-top: 25%
+        z-index: 55
+        .graydot1
+            +dotSize
+            position: relative
+            transform: scale(0.35)
+            +fadeInSet
+    .dotCube2
+        +dotCubeSize
+        position: absolute
+        margin-left: -1%
+        margin-top: 44%
+        transform: rotate(45deg)
+        z-index: 55
+        .graydot2
+            +dotSize
+            position: relative
+            transform: scale(0.32)
+            +fadeInSet2
+            background-color: #fff
+    .designText
+        font-family: 'Microsoft Yahei Bold', 'Noto Sans TC','Microsoft Yahei'
+        position: absolute
+        width: 30% 
+        margin-left: 3%
+        margin-top: 30%
+        +textFadeSet
+        z-index: 51
+    .blueEye
+        position: absolute
+        width: 24%
+        height: auto
+        margin-left: 13%
+        margin-top: 75%
+        z-index: 55
+    .blueEyeSV
+        position: absolute
+        width: 24%
+        height: auto
+        margin-left: 13.8%
+        margin-top: 76%
+        z-index: 54
+    .blueDot
+        position: absolute
+        width: 3%
+        margin-left: 48%
+        margin-top: -10%
+        z-index: 55
+    .blueDotSV
+        position: absolute
+        width: 3%
+        margin-left: 48.3%
+        margin-top: -10.3%
+        z-index: 52
+    .whiteBar
+        position: absolute
+        width: 4%
+        z-index: 55
+        margin-left: 46.2%
+        margin-top: -10.2%
+    .whiteBarSV
+        position: absolute
+        width: 4%
+        z-index: 54
+        margin-left: 46.6%
+        margin-top: -10.8%
+    // --------------Page1紅色區域----------------------
+    
+    // --------------Page1藍色區域----------------------
+    .redEye
+        position: absolute
+        width: 24%
+        height: auto
+        margin-left: 63%
+        margin-top: -30%
+        z-index: 55
+    
+    .redEyeSV
+        position: absolute
+        width: 24%
+        height: auto
+        margin-left: 64%
+        margin-top: -30.9%
+        z-index: 54
+    
+    .dotCube3
+        +dotCubeSize
+        position: absolute
+        margin-left: 90.5%
+        margin-top: -5%
+        transform: rotate(21.5deg)
+        z-index: 55
+        .graydot3
+            +dotSize
+            background-color: #fff
+            position: relative
+            transform: scale(0.32)
+            +fadeInSet2
+    .dotCube4
+        +dotCubeSize
+        position: absolute
+        margin-left: 60%
+        margin-top: 17%
+        z-index: 51
+        .graydot4
+            +dotSize
+            position: relative
+            background-color: $BlueGrey
+            transform: scale(0.35)
+            +fadeInSet
+    .power
+        position: absolute
+        z-index: 3
+        margin-left: 69%
+        margin-top: 31%
+        // opacity: 0.5
+        width: 27.5%
+        height: auto
+    .zeroTemp
+        position: absolute
+        width: 14%
+        margin-left: 80%
+        margin-top: 16%
+        z-index: 51
+        +textFadeSet
+    .zeroTemp2
+        position: absolute
+        width: 20%
+        margin-left: 18.3%
+        margin-top: 35.3%
+        z-index: 10
+    .redBar
+        position: absolute
+        margin-left: 59.5%
+        margin-top: -10%
+        width: 3.5%
+        z-index: 55
+    .redBarSV
+        position: absolute
+        margin-left: 60%
+        margin-top: -10.5%
+        width: 3.5%
+        z-index: 54
+    
+    .barCube2
+        +barCubeSize(12vw,12vw)
+        position: absolute
+        z-index: 55
+        margin-left: 68%
+        margin-top: 45%
+        .graybar2
+            +barSize
+            position: relative
+            background-color: $BlueGrey
+            +fadeInSet
+    .whiteBar2
+        position: absolute
+        width: 4%
+        z-index: 55
+        margin-left: 49%
+        margin-top: 69%
+    .whiteBar2SV
+        position: absolute
+        width: 4%
+        z-index: 54
+        margin-left: 49.5%
+        margin-top: 69.5% 
+    // --------------Page1藍色區域----------------------
+    
+    //----------------Block2 Block3-----------------------
+    
+    .img-responsive   
+        max-width: 100%
+        margin: 0
+    .img-responsive2   
+        max-width: 100%
+        margin: 0
+    .img-responsive3   
+        max-width: 100%
+        margin: 0
+    .row3
+        position: absolute
+        width: 100%
+        margin: 0
+        // overflow: hidden
+        .img-responsive    
+            width: 100%
+            margin: 0
+            position: absolute
+    .row2
+        position: absolute
+    #BG4
+        margin: 0
+        padding: 0
+        margin-top: 10%
+        width: 100%
+        position: absolute
+    
+    //----------------Block2 Block3-----------------------
+    .col
+        background-color: #222222
+    
+    //----------------#section_banner----------------
+    
+    .dotCube5
+        +dotCubeSize
+        position: absolute
+        margin-left: -3.2%
+        margin-top: -2.8%
+        z-index: 3
+        .graydot5
+            +dotSize
+            position: relative
+            transform: scale(0.41)
+            background-color: rgba(255,255,255,1)
+    .dotCube6
+        +dotCubeSize
+        position: absolute
+        margin-left: 26.2%
+        margin-top: 10.8%
+        z-index: 3
+        .graydot6
+            +dotSize
+            position: relative
+            transform: scale(0.41)
+            background-color: rgba(255,255,255,0.1)
+    .dotCube7
+        +dotCubeSize
+        position: absolute
+        margin-left: 82%
+        margin-top: 2.5%
+        z-index: 3
+        .graydot7
+            +dotSize
+            position: relative
+            transform: scale(0.41)
+            background-color: rgba(255,255,255,0.1)
+    .dotCube8
+        +dotCubeSize
+        position: absolute
+        margin-left: 3.7%
+        margin-top: 39%
+        z-index: 3
+        .graydot8
+            +dotSize
+            position: relative
+            transform: scale(0.41)
+            background-color: rgba(255,255,255,0.1)
+    .dotCube9
+        +dotCubeSize
+        position: absolute
+        margin-left: 59.1%
+        margin-top: 32.8%
+        z-index: 3
+        .graydot9
+            +dotSize
+            position: relative
+            transform: scale(0.41)
+            background-color: rgba(255,255,255,0.1)
+    .dotCube10
+        +dotCubeSize
+        position: absolute
+        margin-left: 87.7%
+        margin-top: 48%
+        z-index: 10
+        transform: rotate(45deg)
+        .graydot10
+            +dotSize
+            background-color: red
+            position: relative
+            transform: scale(0.41)
+            background-color: white
+    .dotCube11
+        +dotCubeSize
+        position: absolute
+        margin-left: 2.2%
+        margin-top: 88%
+        z-index: 10
+        .graydot11
+            +dotSize
+            position: relative
+            transform: scale(0.41)
+            background-color: rgba(255,255,255,0.2)
+    .dotCube12
+        +dotCubeSize
+        position: absolute
+        margin-left: -6.5%
+        margin-top: 97%
+        z-index: 10
+        .graydot12
+            +dotSize
+            position: relative
+            transform: scale(0.41)
+            background-color:  rgba(255,255,255,1)
+    .dotCube13
+        +dotCubeSize
+        position: absolute
+        margin-left: 85%
+        margin-top: 107%
+        z-index: 10
+        transform: rotate(60deg)
+        .graydot13
+            +dotSize
+            background-color: rgba(255,255,255,0.1)
+            position: relative
+            transform: scale(0.41)
+    
+    .dotCube14
+        +dotCubeSize
+        position: absolute
+        margin-left: 4%
+        margin-top: 27%
+        z-index: 0
+        transform: rotate(60deg)
+        .graydot14
+            +dotSize
+            background-color: rgba(255,255,255,0.2)
+            position: relative
+            transform: scale(0.41)
+    
+    .dotCube15
+        +dotCubeSize
+        position: absolute
+        margin-left: 91.5%
+        margin-top: 31%
+        z-index: 0
+        .graydot15
+            +dotSize
+            background-color: rgba(255,255,255,1)
+            position: relative
+            transform: scale(0.41)
+    .shortRedBar
+        position: absolute
+        width: 2.5vw
+        height: 2.5vw
+        background-color: #c30d23
+        margin-left: 77%
+        margin-top: 14.5%
+        z-index: 50
+        border-radius: 50vw
+        border:  solid #40220F 0.8vw
+        box-shadow: 0.3rem 0.3rem 0 0 #8F231F
+        overflow: hidden
+        .dotdotBar5
+            position: absolute
+            width: 1.6vw
+            height: 1.6vw
+            background-color: transparent
+            display: flex
+            padding: 0
+            flex-direction: row
+            flex-wrap: no-wrap
+            justify-content: space-between
+            margin-top: -9.3%
+            margin-left: -65%
+            transform: rotate(40deg)
+            .whitedot5
+                width: calc(100%/2)
+                height: 50%
+                transform: scale(0.55)
+                background-color: white
+                border-radius: 50%
+    .middleRedBar
+        position: absolute
+        width: 5vw
+        height: 2.4vw
+        background-color: #c30d23
+        margin-left: 71.2%
+        margin-top: 18.8%
+        z-index: 50
+        border-radius: 50vh
+        border:  solid #40220F 0.9vw
+        box-shadow: 0.35rem 0.39rem 0 0 #8F231F
+        overflow: hidden
+        .dotdotBar3
+            position: absolute
+            width: 3.5vw
+            height: 1vw
+            background-color: transparent
+            display: flex
+            padding: 0
+            flex-direction: row
+            flex-wrap: no-wrap
+            justify-content: space-between
+            margin-top: -12.3%
+            margin-left: -20.2%
+            .whitedot3
+                width: calc(100%/4)
+                // height: auto
+                padding-bottom: calc(100%/4)
+                transform: scale(0.36)
+                background-color: white
+                border-radius: 50%
+                // box-sizing: border-box
+                // margin: 0 4% 0 1%
+        .dotdotBar4
+            position: absolute
+            width: 3.5vw
+            height: 1.1vw
+            background-color: transparent
+            display: flex
+            padding: 0
+            flex-direction: row
+            flex-wrap: no-wrap
+            justify-content: space-between
+            margin-top: 2.3%
+            margin-left: -2%
+            .whitedot4
+                width: calc(100%/4)
+                // height: auto
+                padding-bottom: calc(100%/4)
+                transform: scale(0.36)
+                background-color: white
+                border-radius: 50%
+                // box-sizing: border-box
+                // margin: 0 4% 0 1%
+    .longRedBar
+        position: absolute
+        width: 12vw
+        height: 2.4vw
+        background-color: #c30d23
+        margin-left: 62%
+        margin-top: 14.5%
+        z-index: 50
+        border-radius: 50vh
+        border:  solid #40220F 0.9vw
+        overflow: hidden
+        box-shadow: 0.35rem 0.39rem 0 0 #8F231F
+        .dotdotBar1
+            position: absolute
+            width: 11vw
+            height: 1.1vw
+            background-color: transparent
+            display: flex
+            padding: 0
+            flex-direction: row
+            flex-wrap: no-wrap
+            justify-content: space-between
+            margin-top: -4.6%
+            margin-left: -3.2%
+            .whitedot1
+                width: calc(100%/12)
+                height: auto
+                transform: scale(0.36)
+                background-color: white
+                border-radius: 50%
+                // box-sizing: border-box
+                // margin: 0 4% 0 1%
+        .dotdotBar2
+            position: absolute
+            width: 11vw
+            height: 1.1vw
+            background-color: transparent
+            display: flex
+            padding: 0
+            flex-direction: row
+            flex-wrap: wrap
+            justify-content: space-around
+            margin-top: 0%
+            margin-left: 1.4%
+            .whitedot2
+                width: calc(100%/12)
+                height: auto
+                transform: scale(0.36)
+                background-color: white
+                border-radius: 50%
+                box-sizing: border-box
+    
+    
+    .longBlueBar
+        position: absolute
+        width: 9.2vw
+        height: 2.4vw
+        background-color: #36A9E1
+        margin-left: 28.9%
+        margin-top: 37%
+        z-index: 50
+        border-radius: 50vw
+        border:  solid #40220F 0.9vw
+        overflow: hidden
+        box-shadow: 0.35rem 0.39rem 0 0 #32759B
+        .dotdotBar6
+            position: absolute
+            width: 100%
+            height: 100%
+            background-color: transparent
+            display: flex
+            padding: 0
+            flex-direction: row
+            flex-wrap: no-wrap
+            justify-content: space-between
+            margin-top: -3%
+            margin-left: -0.1%
+            .whitedot6
+                width: calc(100%/9)
+                padding-bottom: calc(100%/9)
+                transform: scale(0.4)
+                background-color: white
+                border-radius: 50%
+                box-sizing: border-box
+                // margin: 0 4% 0 1%
+        .dotdotBar7
+            position: absolute
+            width: 100%
+            height: 100%
+            background-color: transparent
+            display: flex
+            padding: 0
+            flex-direction: row
+            flex-wrap: no-wrap
+            justify-content: space-between
+            margin-top: 2%
+            margin-left: 6%
+            .whitedot7
+                width: calc(100%/9)
+                padding-bottom: calc(100%/9)
+                transform: scale(0.4)
+                background-color: white
+                border-radius: 50%
+    
+    .shortBlueBar
+        position: absolute
+        width: 6.2vw
+        height: 2.4vw
+        background-color: #36A9E1
+        margin-left: 24%
+        margin-top: 40.5%
+        z-index: 50
+        border-radius: 50vw
+        border:  solid #40220F 0.9vw
+        overflow: hidden
+        box-shadow: 0.35rem 0.39rem 0 0 #32759B
+        .dotdotBar8
+            position: absolute
+            width: 85%
+            height: 82%
+            background-color: transparent
+            display: flex
+            padding: 0
+            flex-direction: row
+            flex-wrap: no-wrap
+            justify-content: space-between
+            // margin-top: 7%
+            margin-left: 10.5%
+            .whitedot8
+                width: calc(100%/9)
+                padding-bottom: calc(100%/9)
+                transform: scale(0.7)
+                background-color: white
+                border-radius: 50%
+        .dotdotBar9
+            position: absolute
+            width: 85%
+            height: 82%
+            background-color: transparent
+            display: flex
+            padding: 0
+            flex-direction: row
+            flex-wrap: no-wrap
+            justify-content: space-between
+            margin-top: 10%
+            // margin-left: 7.5%
+            .whitedot9
+                width: calc(100%/9)
+                padding-bottom: calc(100%/9)
+                transform: scale(0.8)
+                background-color: white
+                border-radius: 50%
+    
+    
+    .barCube3
+        width: 13vw  
+        height: 6vw
+        background-color: trasparent
+        display: flex
+        flex-direction: row
+        flex-wrap: nowrap
+        justify-content: space-around
+        position: absolute
+        z-index: 2
+        margin-left: 41%
+        margin-top: 0%
+        z-index: 10
+        .graybar3
+            +barSize
+            position: relative
+    
+    .barCube4
+        +barCubeSize
+        position: absolute
+        z-index: 2
+        margin-left: 30%
+        margin-top: 46%
+        z-index: 10
+        .graybar4
+            +barSize
+            background-color: #5EAFDB
+            position: relative
+    
+    
+    .barCube5
+        +barCubeSize
+        position: absolute
+        z-index: 2
+        margin-left: 80%
+        margin-top: 18%
+        z-index: 10
+        transform: rotate(90deg)
+        .graybar5
+            +barSize
+            background-color: rgba(255,255,255,0.1)
+            position: relative
+    
+    .barCube6
+        +barCubeSize
+        position: absolute
+        z-index: 2
+        margin-left: 52%
+        margin-top: 16%
+        z-index: 10
+        .graybar6
+            +barSize
+            background-color: rgba(255,255,255,0.1)
+            position: relative
+    
+    .container-fluid
+        overflow: hidden
+    
+    .navbar,.navbar-expand-md,.navbar-light
+        background-color: transparent
+        margin: 0
+        opacity: 0
+    a.navbar-brand
+        height: 20%
+        width: 20vw
+        // background-color: #fff
+        position: relative
+        img
+            width: 11vh 
+            
+    
+    .navbar-brand
+        display: flex
+        font-size: 0.9rem
+    .title
+        font-family:  'Noto Sans TC','Microsoft Yahei','Microsoft Yahei Bold'
+        margin-left: 2rem
+        color: white
+        font-weight: 900
+        font-size: 1.3rem
+    
+    @mixin ab_center
+        position: absolute
+        left : 50%
+        top : 50%
+        transform : translate(-50%,-50%)
+    
+    
+    .navbar-light,.navbar-nav,.nav-link
+        color: white
+    
+    .explore
+        font-weight: 900
+        +ab_center
+        top : 83%
+        color : #fff
+        font-size: 1.5vw
+        opacity : 0
+        transition : 0.5s
+        &:after
+            content : "V"
+            display : block
+            transform : scaleX(1.2) scaleY(0.5)
+            position: relative
+            margin-left: 48%
+        &.at_top
+            opacity : 1
+    

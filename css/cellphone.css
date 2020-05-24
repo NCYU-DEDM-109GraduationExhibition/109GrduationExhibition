@@ -1,0 +1,1228 @@
+@media screen and (max-width: 481px) {
+  html, body {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+  body::-webkit-scrollbar {
+    display: none; }
+  body {
+    overflow: hidden;
+    background-color: #2ea7e0; }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; }
+    50% {
+      opacity: 0.5; }
+    100% {
+      opacity: 1; } }
+  @keyframes textFade {
+    0% {
+      opacity: 0; }
+    50% {
+      opacity: 0.5; }
+    100% {
+      opacity: 1; } }
+  @keyframes fadeIn2 {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  .selector-for-some-widget {
+    box-sizing: content-box; }
+  section#section_banner {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 100%;
+    background: linear-gradient(0deg, #c30d23 0%, #c30d23 50%, #2ea7e0 50%, #2ea7e0 100%); }
+  .container-fluid {
+    position: relative;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  #BG1 {
+    position: relative;
+    margin: 0;
+    padding: 0; }
+  .redBG {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 50; }
+    .redBG img {
+      max-width: 100%;
+      margin: 0; }
+  .blueBG {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 50; }
+    .blueBG img {
+      max-width: 100%;
+      margin: 0; }
+  .Camera {
+    position: absolute;
+    z-index: 2;
+    margin-left: 0%;
+    margin-top: 30%;
+    width: 27.5%;
+    height: auto; }
+    .Camera img {
+      filter: grayscale(100%); }
+  .CameraCell {
+    position: absolute;
+    z-index: 10;
+    width: 20%;
+    margin-left: 0%;
+    margin-top: -16%;
+    width: 27.5%;
+    height: auto; }
+    .CameraCell img {
+      filter: grayscale(100%); }
+  .designBG {
+    position: absolute;
+    width: 40%;
+    margin-left: 30.8%;
+    margin-top: 60.75%; }
+  .bb {
+    border: solid red 10px;
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    z-index: 190; }
+  .designText2 {
+    position: absolute;
+    z-index: 10;
+    width: 40%;
+    color: #AD1F24;
+    font-weight: bold;
+    margin-left: 47.5%;
+    margin-top: 140.5%;
+    font-family: 'Microsoft Yahei','Microsoft Yahei Bold', 'Noto Sans TC'; }
+  .dedmBG {
+    position: absolute;
+    width: 40%;
+    z-index: 10;
+    margin-left: 30.8%;
+    margin-top: 106%; }
+  .barCube1 {
+    width: 13vw;
+    height: 13vw;
+    background-color: trasparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    margin-left: 17%;
+    margin-top: -2%;
+    z-index: 55; }
+    .barCube1 .graybar1 {
+      flex: 1;
+      margin: 0 3%;
+      width: auto;
+      background-color: #C62D3E;
+      position: relative;
+      animation-duration: 2.0s;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      opacity: 0; }
+  .dotCube1 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 25%;
+    z-index: 55; }
+    .dotCube1 .graydot1 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.35);
+      animation-duration: 2.0s;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      opacity: 0; }
+  .dotCube2 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: -1%;
+    margin-top: 44%;
+    transform: rotate(45deg);
+    z-index: 55; }
+    .dotCube2 .graydot2 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.32);
+      animation-duration: 2.0s;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      opacity: 0;
+      background-color: #fff; }
+  .designText {
+    font-family: 'Microsoft Yahei Bold', 'Noto Sans TC','Microsoft Yahei';
+    position: absolute;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 30%;
+    animation-duration: 2.0s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 51; }
+  .blueEye {
+    position: absolute;
+    width: 24%;
+    height: auto;
+    margin-left: 13%;
+    margin-top: 75%;
+    z-index: 55; }
+  .blueEyeSV {
+    position: absolute;
+    width: 24%;
+    height: auto;
+    margin-left: 13.8%;
+    margin-top: 76%;
+    z-index: 54; }
+  .blueDot {
+    position: absolute;
+    width: 3%;
+    margin-left: 48%;
+    margin-top: -10%;
+    z-index: 55; }
+  .blueDotSV {
+    position: absolute;
+    width: 3%;
+    margin-left: 48.3%;
+    margin-top: -10.3%;
+    z-index: 52; }
+  .whiteBar {
+    position: absolute;
+    width: 4%;
+    z-index: 55;
+    margin-left: 46.2%;
+    margin-top: -10.2%; }
+  .whiteBarSV {
+    position: absolute;
+    width: 4%;
+    z-index: 54;
+    margin-left: 46.6%;
+    margin-top: -10.8%; }
+  .redEye {
+    position: absolute;
+    width: 24%;
+    height: auto;
+    margin-left: 63%;
+    margin-top: -30%;
+    z-index: 55; }
+  .redEyeSV {
+    position: absolute;
+    width: 24%;
+    height: auto;
+    margin-left: 64%;
+    margin-top: -30.9%;
+    z-index: 54; }
+  .dotCube3 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 90.5%;
+    margin-top: -5%;
+    transform: rotate(21.5deg);
+    z-index: 55; }
+    .dotCube3 .graydot3 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      background-color: #fff;
+      position: relative;
+      transform: scale(0.32);
+      animation-duration: 2.0s;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      opacity: 0; }
+  .dotCube4 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 17%;
+    z-index: 51; }
+    .dotCube4 .graydot4 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      background-color: #5EAFDB;
+      transform: scale(0.35);
+      animation-duration: 2.0s;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      opacity: 0; }
+  .power {
+    position: absolute;
+    z-index: 3;
+    margin-left: 6.5%;
+    margin-top: 5%;
+    width: 32%;
+    height: auto; }
+  .zeroTemp {
+    position: absolute;
+    width: 14%;
+    margin-left: 80%;
+    margin-top: 16%;
+    z-index: 51;
+    animation-duration: 2.0s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .zeroTemp2 {
+    position: absolute;
+    width: 20%;
+    margin-left: 18.3%;
+    margin-top: 35.3%;
+    z-index: 10; }
+  .redBar {
+    position: absolute;
+    margin-left: 59.5%;
+    margin-top: -10%;
+    width: 3.5%;
+    z-index: 55; }
+  .redBarSV {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -10.5%;
+    width: 3.5%;
+    z-index: 54; }
+  .barCube2 {
+    width: 12vw;
+    height: 12vw;
+    background-color: trasparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 55;
+    margin-left: 68%;
+    margin-top: 45%; }
+    .barCube2 .graybar2 {
+      flex: 1;
+      margin: 0 3%;
+      width: auto;
+      background-color: #C62D3E;
+      position: relative;
+      background-color: #5EAFDB;
+      animation-duration: 2.0s;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      opacity: 0; }
+  .whiteBar2 {
+    position: absolute;
+    width: 4%;
+    z-index: 55;
+    margin-left: 49%;
+    margin-top: 69%; }
+  .whiteBar2SV {
+    position: absolute;
+    width: 4%;
+    z-index: 54;
+    margin-left: 49.5%;
+    margin-top: 69.5%; }
+  .row3 {
+    position: absolute;
+    width: 100%;
+    margin: 0; }
+    .row3 .img-responsive {
+      width: 100%;
+      margin: 0;
+      position: absolute; }
+  .row2 {
+    position: absolute; }
+  #BG4 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+    width: 100%;
+    position: absolute; }
+  .col {
+    background-color: #222222; }
+  .block {
+    width: 100px; }
+  .dotCube5 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 35%;
+    z-index: 3;
+    transform: scale(1.4); }
+    .dotCube5 .graydot5 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.41);
+      background-color: rgba(255, 255, 255, 0.1); }
+  .dotCube6 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 3.5%;
+    margin-top: 48%;
+    z-index: 3;
+    transform: scale(1.15); }
+    .dotCube6 .graydot6 {
+      width: calc(100%/4);
+      height: calc(100%/4);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.35);
+      background-color: white; }
+  .dotCube7 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 110.5%;
+    z-index: 3;
+    transform: scale(1.8); }
+    .dotCube7 .graydot7 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.35);
+      background-color: rgba(255, 255, 255, 0.2); }
+  .dotCube8 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 148%;
+    z-index: 3;
+    transform: scale(1.15); }
+    .dotCube8 .graydot8 {
+      width: calc(100%/4);
+      height: calc(100%/4);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.41);
+      background-color: white; }
+  .dotCube9 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 95.1%;
+    margin-top: 170.8%;
+    z-index: 3; }
+    .dotCube9 .graydot9 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.41);
+      background-color: rgba(255, 255, 255, 0.1); }
+  .dotCube10 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 82.7%;
+    margin-top: 244%;
+    z-index: 10;
+    transform: scale(1.5); }
+    .dotCube10 .graydot10 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      background-color: red;
+      position: relative;
+      transform: scale(0.41);
+      background-color: rgba(255, 255, 255, 0.2); }
+  .dotCube11 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 2.2%;
+    margin-top: 88%;
+    z-index: 10; }
+    .dotCube11 .graydot11 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.41);
+      background-color: rgba(255, 255, 255, 0.2); }
+  .dotCube12 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: -6.5%;
+    margin-top: 97%;
+    z-index: 10; }
+    .dotCube12 .graydot12 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.41);
+      background-color: white; }
+  .dotCube13 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 107%;
+    z-index: 10;
+    transform: rotate(60deg); }
+    .dotCube13 .graydot13 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      background-color: rgba(255, 255, 255, 0.1);
+      position: relative;
+      transform: scale(0.41); }
+  .dotCube14 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 27%;
+    z-index: 0;
+    transform: rotate(60deg); }
+    .dotCube14 .graydot14 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      background-color: rgba(255, 255, 255, 0.2);
+      position: relative;
+      transform: scale(0.41); }
+  .dotCube15 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 91.5%;
+    margin-top: 31%;
+    z-index: 0; }
+    .dotCube15 .graydot15 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      background-color: white;
+      position: relative;
+      transform: scale(0.41); }
+  .dotCube20 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: -10%;
+    margin-top: 120%;
+    z-index: 3;
+    transform: scale(1.6); }
+    .dotCube20 .graydot20 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.41);
+      background-color: white; }
+  .dotCube21 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 91%;
+    margin-top: 187%;
+    z-index: 3;
+    transform: scale(1.8); }
+    .dotCube21 .graydot21 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.41);
+      background-color: white; }
+  .dotCube22 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 51%;
+    margin-top: 230%;
+    z-index: 3;
+    transform: scale(1.8) rotate(45deg); }
+    .dotCube22 .graydot22 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.41);
+      background-color: rgba(255, 255, 255, 0.2); }
+  .dotCube23 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: -10%;
+    margin-top: 249%;
+    z-index: 3;
+    transform: scale(1.8); }
+    .dotCube23 .graydot23 {
+      width: calc(100%/5);
+      height: calc(100%/5);
+      background-color: #C62D3E;
+      border-radius: 50vh;
+      box-sizing: border-box;
+      position: relative;
+      transform: scale(0.41);
+      background-color: white; }
+  .shortRedBar {
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: #2CA6E0;
+    margin-left: 89%;
+    margin-top: 49.5%;
+    z-index: 50;
+    border-radius: 50vw;
+    border: solid #40220F 0.8vw;
+    box-shadow: 0.1rem 0.1rem 0 0 #24749A;
+    overflow: hidden;
+    transform: scale(1.5, 1.5); }
+    .shortRedBar .dotdotBar5 {
+      position: absolute;
+      width: 1.6vw;
+      height: 1.6vw;
+      background-color: transparent;
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+      justify-content: space-between;
+      margin-top: -9.3%;
+      margin-left: -65%;
+      transform: rotate(40deg); }
+      .shortRedBar .dotdotBar5 .whitedot5 {
+        width: calc(100%/2);
+        height: 50%;
+        transform: scale(0.55);
+        background-color: white;
+        border-radius: 50%; }
+  .middleRedBar {
+    position: absolute;
+    width: 5vw;
+    height: 2.4vw;
+    background-color: #2CA6E0;
+    margin-left: 83%;
+    margin-top: 55.5%;
+    z-index: 50;
+    border-radius: 50vh;
+    border: solid #40220F 0.9vw;
+    box-shadow: 0.1rem 0.1rem 0 0 #24749A;
+    overflow: hidden;
+    transform: scale(1.5, 1.5); }
+    .middleRedBar .dotdotBar3 {
+      position: absolute;
+      width: 3.5vw;
+      height: 1vw;
+      background-color: transparent;
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+      justify-content: space-between;
+      margin-top: -12.3%;
+      margin-left: -20.2%; }
+      .middleRedBar .dotdotBar3 .whitedot3 {
+        width: calc(100%/4);
+        padding-bottom: calc(100%/4);
+        transform: scale(0.36);
+        background-color: white;
+        border-radius: 50%; }
+    .middleRedBar .dotdotBar4 {
+      position: absolute;
+      width: 3.5vw;
+      height: 1.1vw;
+      background-color: transparent;
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+      justify-content: space-between;
+      margin-top: 2.3%;
+      margin-left: -2%; }
+      .middleRedBar .dotdotBar4 .whitedot4 {
+        width: calc(100%/4);
+        padding-bottom: calc(100%/4);
+        transform: scale(0.36);
+        background-color: white;
+        border-radius: 50%; }
+  .longRedBar {
+    position: absolute;
+    width: 12vw;
+    height: 2.4vw;
+    background-color: #2CA6E0;
+    margin-left: 70%;
+    margin-top: 49.5%;
+    z-index: 50;
+    border-radius: 50vh;
+    border: solid #40220F 0.9vw;
+    overflow: hidden;
+    box-shadow: 0.1rem 0.1rem 0 0 #24749A;
+    transform: scale(1.5, 1.5); }
+    .longRedBar .dotdotBar1 {
+      position: absolute;
+      width: 11vw;
+      height: 1.1vw;
+      background-color: transparent;
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+      justify-content: space-between;
+      margin-top: -4.6%;
+      margin-left: -3.2%; }
+      .longRedBar .dotdotBar1 .whitedot1 {
+        width: calc(100%/12);
+        height: auto;
+        transform: scale(0.36);
+        background-color: white;
+        border-radius: 50%; }
+    .longRedBar .dotdotBar2 {
+      position: absolute;
+      width: 11vw;
+      height: 1.1vw;
+      background-color: transparent;
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 0%;
+      margin-left: 1.4%; }
+      .longRedBar .dotdotBar2 .whitedot2 {
+        width: calc(100%/12);
+        height: auto;
+        transform: scale(0.36);
+        background-color: white;
+        border-radius: 50%;
+        box-sizing: border-box; }
+  .longBlueBar {
+    position: absolute;
+    width: 9.2vw;
+    height: 2.4vw;
+    background-color: #C30D23;
+    margin-left: 12.3%;
+    margin-top: 122%;
+    z-index: 50;
+    border-radius: 50vw;
+    border: solid #40220F 0.9vw;
+    overflow: hidden;
+    box-shadow: 0.1rem 0.1rem 0 0 #931E23;
+    transform: scale(1.5, 1.5); }
+    .longBlueBar .dotdotBar6 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+      justify-content: space-between;
+      margin-top: -3%;
+      margin-left: -0.1%; }
+      .longBlueBar .dotdotBar6 .whitedot6 {
+        width: calc(100%/9);
+        padding-bottom: calc(100%/9);
+        transform: scale(0.4);
+        background-color: white;
+        border-radius: 50%;
+        box-sizing: border-box; }
+    .longBlueBar .dotdotBar7 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+      justify-content: space-between;
+      margin-top: 2%;
+      margin-left: 6%; }
+      .longBlueBar .dotdotBar7 .whitedot7 {
+        width: calc(100%/9);
+        padding-bottom: calc(100%/9);
+        transform: scale(0.4);
+        background-color: white;
+        border-radius: 50%; }
+  .shortBlueBar {
+    position: absolute;
+    width: 6.2vw;
+    height: 2.4vw;
+    background-color: #C30D23;
+    margin-left: 5.9%;
+    margin-top: 128%;
+    z-index: 50;
+    border-radius: 50vw;
+    border: solid #40220F 0.9vw;
+    overflow: hidden;
+    box-shadow: 0.1rem 0.1rem 0 0 #931E23;
+    transform: scale(1.5, 1.5); }
+    .shortBlueBar .dotdotBar8 {
+      position: absolute;
+      width: 85%;
+      height: 82%;
+      background-color: transparent;
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+      justify-content: space-between;
+      margin-left: 10.5%; }
+      .shortBlueBar .dotdotBar8 .whitedot8 {
+        width: calc(100%/9);
+        padding-bottom: calc(100%/9);
+        transform: scale(0.7);
+        background-color: white;
+        border-radius: 50%; }
+    .shortBlueBar .dotdotBar9 {
+      position: absolute;
+      width: 85%;
+      height: 82%;
+      background-color: transparent;
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+      justify-content: space-between;
+      margin-top: 10%; }
+      .shortBlueBar .dotdotBar9 .whitedot9 {
+        width: calc(100%/9);
+        padding-bottom: calc(100%/9);
+        transform: scale(0.8);
+        background-color: white;
+        border-radius: 50%; }
+  .barCube3 {
+    width: 13vw;
+    height: 12vw;
+    background-color: trasparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    margin-left: 82.5%;
+    margin-top: 5%;
+    z-index: 10;
+    transform: scale(1.5, 1.5); }
+    .barCube3 .graybar3 {
+      flex: 1;
+      margin: 0 3%;
+      width: auto;
+      background-color: #C62D3E;
+      background-color: rgba(255, 255, 255, 0.2);
+      position: relative; }
+  .barCube4 {
+    width: 13vw;
+    height: 13vw;
+    background-color: trasparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 158%;
+    z-index: 10;
+    transform: scale(1.5); }
+    .barCube4 .graybar4 {
+      flex: 1;
+      margin: 0 3%;
+      width: auto;
+      background-color: #C62D3E;
+      background-color: rgba(255, 255, 255, 0.1);
+      position: relative; }
+  .barCube5 {
+    width: 13vw;
+    height: 13vw;
+    background-color: trasparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 10;
+    margin-left: 80%;
+    margin-top: 140%;
+    z-index: 10;
+    transform: rotate(90deg) scale(2); }
+    .barCube5 .graybar5 {
+      flex: 1;
+      margin: 0 3%;
+      width: auto;
+      background-color: #C62D3E;
+      background-color: rgba(255, 255, 255, 0.1);
+      position: relative; }
+  .barCube6 {
+    width: 13vw;
+    height: 13vw;
+    background-color: trasparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    margin-left: 52%;
+    margin-top: 16%;
+    z-index: 10; }
+    .barCube6 .graybar6 {
+      flex: 1;
+      margin: 0 3%;
+      width: auto;
+      background-color: #C62D3E;
+      background-color: rgba(255, 255, 255, 0.1);
+      position: relative; }
+  .barCube7 {
+    width: 13vw;
+    height: 13vw;
+    background-color: trasparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    margin-left: 12%;
+    margin-top: 150%;
+    z-index: 10;
+    transform: scale(2); }
+    .barCube7 .graybar7 {
+      flex: 1;
+      margin: 0 3%;
+      width: auto;
+      background-color: #C62D3E;
+      background-color: rgba(255, 255, 255, 0.1);
+      position: relative; }
+  .container-fluid {
+    overflow: hidden; }
+  .navbar, .navbar-expand-md, .navbar-light {
+    background-color: transparent;
+    margin: 0;
+    opacity: 0; }
+  a.navbar-brand {
+    height: 20%;
+    width: 20vw;
+    position: relative; }
+    a.navbar-brand img {
+      width: 11vh; }
+  .navbar-brand {
+    display: flex;
+    font-size: 0.9rem; }
+  .title {
+    font-family: 'Noto Sans TC','Microsoft Yahei','Microsoft Yahei Bold';
+    margin-left: 2rem;
+    color: white;
+    font-weight: 900;
+    font-size: 1.3rem; }
+  .navbar-light, .navbar-nav, .nav-link {
+    color: white; }
+  .explore {
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    top: 83%;
+    color: #fff;
+    font-size: 1rem;
+    opacity: 0;
+    transition: 0.5s; }
+    .explore:after {
+      content: "V";
+      display: block;
+      transform: scaleX(1.2) scaleY(0.5);
+      position: relative;
+      margin-left: 48%; }
+    .explore.at_top {
+      opacity: 1; }
+  * {
+    font-family: 'Microsoft Yahei Bold', 'Noto Sans TC','Microsoft Yahei'; }
+  html, body {
+    margin: 0;
+    overflow-x: hidden; }
+  section#section_slide, section#section_click {
+    position: relative; }
+  section#section_click {
+    padding: 3% 0px 0% 0px; }
+  section#section_slide {
+    padding: 10% 0px 3% 0px; }
+  section#section_slide {
+    background: linear-gradient(13deg, #2ea7e0 0%, #2ea7e0 20%, #c30d23 20%, #c30d23 100%);
+    background-size: cover; }
+    section#section_slide .flexslider {
+      z-index: 50;
+      position: relative; }
+    section#section_slide .streak_r {
+      width: 15%;
+      height: 150px;
+      position: absolute;
+      right: 0%;
+      top: 50%;
+      opacity: 0.2;
+      transform: translate(-30%, -20%) rotate(90deg); }
+      section#section_slide .streak_r .line {
+        width: 5%;
+        height: 150px;
+        background-color: #fff;
+        margin-left: 5%;
+        float: left; }
+    section#section_slide .round_lbslide {
+      width: 125px;
+      height: 125px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      transform: translateY(-50%); }
+      section#section_slide .round_lbslide .circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        background-color: white;
+        float: left;
+        margin: 8%; }
+  .round_lbslide-1, .round_rt, .round_lbclick {
+    width: 180px;
+    height: 160px;
+    position: absolute;
+    transform: translate(27%, 20%);
+    opacity: 0.2; }
+    .round_lbslide-1 .circle, .round_rt .circle, .round_lbclick .circle {
+      width: 15px;
+      height: 15px;
+      border-radius: 100%;
+      float: left;
+      margin: 8px;
+      background-color: black;
+      padding: 9px; }
+  .round_lbslide-1 {
+    left: 0;
+    bottom: 20%; }
+  section#section_click {
+    background: linear-gradient(170deg, #2ea7e0 0%, #2ea7e0 60%, #c30d23 60%, #c30d23 100%);
+    background-size: cover; }
+    section#section_click .round_rt {
+      right: 0;
+      top: 0;
+      transform: rotate(45deg) translate(-30%, 20%); }
+    section#section_click .row {
+      display: flex;
+      justify-content: space-around;
+      padding: 3% 10% 3% 10%; }
+    section#section_click .col-md, section#section_click .col-lg, section#section_click .col-xl-2 {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      section#section_click .col-md .text, section#section_click .col-lg .text, section#section_click .col-xl-2 .text {
+        text-align: center;
+        font-family: 'Noto Sans TC','Microsoft Yahei Bold','Microsoft Yahei';
+        font-weight: 900;
+        font-size: 1.6rem;
+        color: white;
+        margin: 1.5rem 0 1.5rem 0;
+        text-shadow: 0.3rem 0.15rem 0 rgba(0, 0, 0, 0.4); }
+    section#section_click .block {
+      float: left;
+      position: relative;
+      z-index: 50;
+      box-shadow: 0.3rem 0.3rem 0 0 rgba(0, 0, 0, 0.4); }
+      section#section_click .block img {
+        max-width: 100%;
+        height: auto; }
+    section#section_click .streak_center {
+      width: 15%;
+      height: 150px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      opacity: 0.2; }
+      section#section_click .streak_center .line {
+        width: 5%;
+        height: 150px;
+        background-color: #fff;
+        margin-left: 5%;
+        float: left; }
+    section#section_click .round_rb {
+      width: 125px;
+      height: 125px;
+      position: relative;
+      margin-left: 100%; }
+      section#section_click .round_rb .circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        background-color: white;
+        margin: 8px;
+        float: left;
+        padding: 9px; }
+    section#section_click .round_lbclick {
+      left: 0;
+      bottom: 0;
+      transform: rotate(45deg) translate(30%, -100%); }
+  .flexslider.carousel {
+    box-shadow: 0.5rem 0.5rem 0 0 rgba(0, 0, 0, 0.4); }
+  .flex-control-paging li a.flex-active {
+    background-color: rgba(0, 0, 0, 0.4); }
+  .flex-control-paging li a {
+    background-color: #fff; }
+  .flexslider:hover .flex-direction-nav .flex-prev::before {
+    color: rgba(0, 0, 0, 0.8); }
+  .slides li {
+    width: 1100px; }
+  nav.navbar {
+    transition: 0.5s; }
+    nav.navbar a {
+      transition: 0.5s; } }

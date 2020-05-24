@@ -1,0 +1,1427 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  html, body {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    overflow: hidden;
+    background-color: #2ea7e0;
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes textFade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes textFade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fadeIn2 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn2 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .selector-for-some-widget {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  section#section_banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(#c30d23), color-stop(50%, #c30d23), color-stop(50%, #2ea7e0), to(#2ea7e0));
+    background: linear-gradient(180deg, #c30d23 0%, #c30d23 50%, #2ea7e0 50%, #2ea7e0 100%);
+  }
+  .container-fluid {
+    position: relative;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  #BG1 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .redBG {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 50;
+  }
+  .redBG img {
+    max-width: 100%;
+    margin: 0;
+  }
+  .blueBG {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 50;
+  }
+  .blueBG img {
+    max-width: 100%;
+    margin: 0;
+  }
+  .Camera {
+    position: absolute;
+    z-index: 2;
+    margin-left: 6%;
+    width: 27.5%;
+    height: auto;
+  }
+  .Camera img {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+  .designBG {
+    position: absolute;
+    width: 16%;
+    margin-left: 41.8%;
+    margin-top: 16.75%;
+  }
+  .bb {
+    border: solid red 10px;
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    z-index: 190;
+  }
+  .designText2 {
+    position: absolute;
+    z-index: 10;
+    width: 28%;
+    color: #ae1e24;
+    font-weight: bold;
+    margin-left: 62.5%;
+    margin-top: 17.5%;
+    font-family: 'Microsoft Yahei','Microsoft Yahei Bold', 'Noto Sans TC';
+  }
+  .dedmBG {
+    position: absolute;
+    width: 16%;
+    z-index: 10;
+    margin-left: 41.8%;
+    margin-top: 36%;
+  }
+  .barCube1 {
+    width: 13vw;
+    height: 13vw;
+    background-color: trasparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    margin-left: 17%;
+    margin-top: -2%;
+    z-index: 55;
+  }
+  .barCube1 .graybar1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 3%;
+    width: auto;
+    background-color: #C62D3E;
+    position: relative;
+    -webkit-animation-duration: 2.0s;
+            animation-duration: 2.0s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .dotCube1 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 25%;
+    z-index: 55;
+  }
+  .dotCube1 .graydot1 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+    -webkit-animation-duration: 2.0s;
+            animation-duration: 2.0s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .dotCube2 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: -1%;
+    margin-top: 44%;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    z-index: 55;
+  }
+  .dotCube2 .graydot2 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-transform: scale(0.32);
+            transform: scale(0.32);
+    -webkit-animation-duration: 2.0s;
+            animation-duration: 2.0s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    opacity: 0;
+    background-color: #fff;
+  }
+  .designText {
+    font-family: 'Microsoft Yahei Bold', 'Noto Sans TC','Microsoft Yahei';
+    position: absolute;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 30%;
+    -webkit-animation-duration: 2.0s;
+            animation-duration: 2.0s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 51;
+  }
+  .blueEye {
+    position: absolute;
+    width: 24%;
+    height: auto;
+    margin-left: 13%;
+    margin-top: 75%;
+    z-index: 55;
+  }
+  .blueEyeSV {
+    position: absolute;
+    width: 24%;
+    height: auto;
+    margin-left: 13.8%;
+    margin-top: 76%;
+    z-index: 54;
+  }
+  .blueDot {
+    position: absolute;
+    width: 3%;
+    margin-left: 48%;
+    margin-top: -10%;
+    z-index: 55;
+  }
+  .blueDotSV {
+    position: absolute;
+    width: 3%;
+    margin-left: 48.3%;
+    margin-top: -10.3%;
+    z-index: 52;
+  }
+  .whiteBar {
+    position: absolute;
+    width: 4%;
+    z-index: 55;
+    margin-left: 46.2%;
+    margin-top: -10.2%;
+  }
+  .whiteBarSV {
+    position: absolute;
+    width: 4%;
+    z-index: 54;
+    margin-left: 46.6%;
+    margin-top: -10.8%;
+  }
+  .redEye {
+    position: absolute;
+    width: 24%;
+    height: auto;
+    margin-left: 63%;
+    margin-top: -30%;
+    z-index: 55;
+  }
+  .redEyeSV {
+    position: absolute;
+    width: 24%;
+    height: auto;
+    margin-left: 64%;
+    margin-top: -30.9%;
+    z-index: 54;
+  }
+  .dotCube3 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 90.5%;
+    margin-top: -5%;
+    -webkit-transform: rotate(21.5deg);
+            transform: rotate(21.5deg);
+    z-index: 55;
+  }
+  .dotCube3 .graydot3 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #fff;
+    position: relative;
+    -webkit-transform: scale(0.32);
+            transform: scale(0.32);
+    -webkit-animation-duration: 2.0s;
+            animation-duration: 2.0s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .dotCube4 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 17%;
+    z-index: 51;
+  }
+  .dotCube4 .graydot4 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    background-color: #5EAFDB;
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+    -webkit-animation-duration: 2.0s;
+            animation-duration: 2.0s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .power {
+    position: absolute;
+    z-index: 3;
+    margin-left: 69%;
+    margin-top: 31%;
+    width: 27.5%;
+    height: auto;
+  }
+  .zeroTemp {
+    position: absolute;
+    width: 14%;
+    margin-left: 80%;
+    margin-top: 16%;
+    z-index: 51;
+    -webkit-animation-duration: 2.0s;
+            animation-duration: 2.0s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .zeroTemp2 {
+    position: absolute;
+    width: 20%;
+    margin-left: 18.3%;
+    margin-top: 35.3%;
+    z-index: 10;
+  }
+  .redBar {
+    position: absolute;
+    margin-left: 59.5%;
+    margin-top: -10%;
+    width: 3.5%;
+    z-index: 55;
+  }
+  .redBarSV {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -10.5%;
+    width: 3.5%;
+    z-index: 54;
+  }
+  .barCube2 {
+    width: 12vw;
+    height: 12vw;
+    background-color: trasparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    z-index: 55;
+    margin-left: 68%;
+    margin-top: 45%;
+  }
+  .barCube2 .graybar2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 3%;
+    width: auto;
+    background-color: #C62D3E;
+    position: relative;
+    background-color: #5EAFDB;
+    -webkit-animation-duration: 2.0s;
+            animation-duration: 2.0s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .whiteBar2 {
+    position: absolute;
+    width: 4%;
+    z-index: 55;
+    margin-left: 49%;
+    margin-top: 69%;
+  }
+  .whiteBar2SV {
+    position: absolute;
+    width: 4%;
+    z-index: 54;
+    margin-left: 49.5%;
+    margin-top: 69.5%;
+  }
+  .img-responsive {
+    max-width: 100%;
+    margin: 0;
+  }
+  .img-responsive2 {
+    max-width: 100%;
+    margin: 0;
+  }
+  .img-responsive3 {
+    max-width: 100%;
+    margin: 0;
+  }
+  .row3 {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+  }
+  .row3 .img-responsive {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+  }
+  .row2 {
+    position: absolute;
+  }
+  #BG4 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+    width: 100%;
+    position: absolute;
+  }
+  .col {
+    background-color: #222222;
+  }
+  .dotCube5 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: -3.2%;
+    margin-top: -2.8%;
+    z-index: 3;
+  }
+  .dotCube5 .graydot5 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+    background-color: white;
+  }
+  .dotCube6 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 26.2%;
+    margin-top: 10.8%;
+    z-index: 3;
+  }
+  .dotCube6 .graydot6 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .dotCube7 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 2.5%;
+    z-index: 3;
+  }
+  .dotCube7 .graydot7 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .dotCube8 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 3.7%;
+    margin-top: 39%;
+    z-index: 3;
+  }
+  .dotCube8 .graydot8 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .dotCube9 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 59.1%;
+    margin-top: 32.8%;
+    z-index: 3;
+  }
+  .dotCube9 .graydot9 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .dotCube10 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 87.7%;
+    margin-top: 48%;
+    z-index: 10;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .dotCube10 .graydot10 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: red;
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+    background-color: white;
+  }
+  .dotCube11 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 2.2%;
+    margin-top: 88%;
+    z-index: 10;
+  }
+  .dotCube11 .graydot11 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .dotCube12 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: -6.5%;
+    margin-top: 97%;
+    z-index: 10;
+  }
+  .dotCube12 .graydot12 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+    background-color: white;
+  }
+  .dotCube13 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 107%;
+    z-index: 10;
+    -webkit-transform: rotate(60deg);
+            transform: rotate(60deg);
+  }
+  .dotCube13 .graydot13 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+  }
+  .dotCube14 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 27%;
+    z-index: 0;
+    -webkit-transform: rotate(60deg);
+            transform: rotate(60deg);
+  }
+  .dotCube14 .graydot14 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+  }
+  .dotCube15 {
+    width: 14.4vw;
+    height: 14.4vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-left: 91.5%;
+    margin-top: 31%;
+    z-index: 0;
+  }
+  .dotCube15 .graydot15 {
+    width: calc(100%/5);
+    height: calc(100%/5);
+    background-color: #C62D3E;
+    border-radius: 50vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    -webkit-transform: scale(0.41);
+            transform: scale(0.41);
+  }
+  .shortRedBar {
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: #c30d23;
+    margin-left: 77%;
+    margin-top: 14.5%;
+    z-index: 50;
+    border-radius: 50vw;
+    border: solid #40220F 0.8vw;
+    -webkit-box-shadow: 0.3rem 0.3rem 0 0 #8F231F;
+            box-shadow: 0.3rem 0.3rem 0 0 #8F231F;
+    overflow: hidden;
+  }
+  .shortRedBar .dotdotBar5 {
+    position: absolute;
+    width: 1.6vw;
+    height: 1.6vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: -9.3%;
+    margin-left: -65%;
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+  }
+  .shortRedBar .dotdotBar5 .whitedot5 {
+    width: calc(100%/2);
+    height: 50%;
+    -webkit-transform: scale(0.55);
+            transform: scale(0.55);
+    background-color: white;
+    border-radius: 50%;
+  }
+  .middleRedBar {
+    position: absolute;
+    width: 5vw;
+    height: 2.4vw;
+    background-color: #c30d23;
+    margin-left: 71.2%;
+    margin-top: 18.8%;
+    z-index: 50;
+    border-radius: 50vh;
+    border: solid #40220F 0.9vw;
+    -webkit-box-shadow: 0.35rem 0.39rem 0 0 #8F231F;
+            box-shadow: 0.35rem 0.39rem 0 0 #8F231F;
+    overflow: hidden;
+  }
+  .middleRedBar .dotdotBar3 {
+    position: absolute;
+    width: 3.5vw;
+    height: 1vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: -12.3%;
+    margin-left: -20.2%;
+  }
+  .middleRedBar .dotdotBar3 .whitedot3 {
+    width: calc(100%/4);
+    padding-bottom: calc(100%/4);
+    -webkit-transform: scale(0.36);
+            transform: scale(0.36);
+    background-color: white;
+    border-radius: 50%;
+  }
+  .middleRedBar .dotdotBar4 {
+    position: absolute;
+    width: 3.5vw;
+    height: 1.1vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 2.3%;
+    margin-left: -2%;
+  }
+  .middleRedBar .dotdotBar4 .whitedot4 {
+    width: calc(100%/4);
+    padding-bottom: calc(100%/4);
+    -webkit-transform: scale(0.36);
+            transform: scale(0.36);
+    background-color: white;
+    border-radius: 50%;
+  }
+  .longRedBar {
+    position: absolute;
+    width: 12vw;
+    height: 2.4vw;
+    background-color: #c30d23;
+    margin-left: 62%;
+    margin-top: 14.5%;
+    z-index: 50;
+    border-radius: 50vh;
+    border: solid #40220F 0.9vw;
+    overflow: hidden;
+    -webkit-box-shadow: 0.35rem 0.39rem 0 0 #8F231F;
+            box-shadow: 0.35rem 0.39rem 0 0 #8F231F;
+  }
+  .longRedBar .dotdotBar1 {
+    position: absolute;
+    width: 11vw;
+    height: 1.1vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: -4.6%;
+    margin-left: -3.2%;
+  }
+  .longRedBar .dotdotBar1 .whitedot1 {
+    width: calc(100%/12);
+    height: auto;
+    -webkit-transform: scale(0.36);
+            transform: scale(0.36);
+    background-color: white;
+    border-radius: 50%;
+  }
+  .longRedBar .dotdotBar2 {
+    position: absolute;
+    width: 11vw;
+    height: 1.1vw;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 0%;
+    margin-left: 1.4%;
+  }
+  .longRedBar .dotdotBar2 .whitedot2 {
+    width: calc(100%/12);
+    height: auto;
+    -webkit-transform: scale(0.36);
+            transform: scale(0.36);
+    background-color: white;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .longBlueBar {
+    position: absolute;
+    width: 9.2vw;
+    height: 2.4vw;
+    background-color: #36A9E1;
+    margin-left: 28.9%;
+    margin-top: 37%;
+    z-index: 50;
+    border-radius: 50vw;
+    border: solid #40220F 0.9vw;
+    overflow: hidden;
+    -webkit-box-shadow: 0.35rem 0.39rem 0 0 #32759B;
+            box-shadow: 0.35rem 0.39rem 0 0 #32759B;
+  }
+  .longBlueBar .dotdotBar6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: -3%;
+    margin-left: -0.1%;
+  }
+  .longBlueBar .dotdotBar6 .whitedot6 {
+    width: calc(100%/9);
+    padding-bottom: calc(100%/9);
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+    background-color: white;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .longBlueBar .dotdotBar7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 6%;
+  }
+  .longBlueBar .dotdotBar7 .whitedot7 {
+    width: calc(100%/9);
+    padding-bottom: calc(100%/9);
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+    background-color: white;
+    border-radius: 50%;
+  }
+  .shortBlueBar {
+    position: absolute;
+    width: 6.2vw;
+    height: 2.4vw;
+    background-color: #36A9E1;
+    margin-left: 24%;
+    margin-top: 40.5%;
+    z-index: 50;
+    border-radius: 50vw;
+    border: solid #40220F 0.9vw;
+    overflow: hidden;
+    -webkit-box-shadow: 0.35rem 0.39rem 0 0 #32759B;
+            box-shadow: 0.35rem 0.39rem 0 0 #32759B;
+  }
+  .shortBlueBar .dotdotBar8 {
+    position: absolute;
+    width: 85%;
+    height: 82%;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 10.5%;
+  }
+  .shortBlueBar .dotdotBar8 .whitedot8 {
+    width: calc(100%/9);
+    padding-bottom: calc(100%/9);
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    background-color: white;
+    border-radius: 50%;
+  }
+  .shortBlueBar .dotdotBar9 {
+    position: absolute;
+    width: 85%;
+    height: 82%;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 10%;
+  }
+  .shortBlueBar .dotdotBar9 .whitedot9 {
+    width: calc(100%/9);
+    padding-bottom: calc(100%/9);
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    background-color: white;
+    border-radius: 50%;
+  }
+  .barCube3 {
+    width: 13vw;
+    height: 6vw;
+    background-color: trasparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    margin-left: 41%;
+    margin-top: 0%;
+    z-index: 10;
+  }
+  .barCube3 .graybar3 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 3%;
+    width: auto;
+    background-color: #C62D3E;
+    position: relative;
+  }
+  .barCube4 {
+    width: 13vw;
+    height: 13vw;
+    background-color: trasparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    margin-left: 30%;
+    margin-top: 46%;
+    z-index: 10;
+  }
+  .barCube4 .graybar4 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 3%;
+    width: auto;
+    background-color: #C62D3E;
+    background-color: #5EAFDB;
+    position: relative;
+  }
+  .barCube5 {
+    width: 13vw;
+    height: 13vw;
+    background-color: trasparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    margin-left: 80%;
+    margin-top: 18%;
+    z-index: 10;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .barCube5 .graybar5 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 3%;
+    width: auto;
+    background-color: #C62D3E;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+  }
+  .barCube6 {
+    width: 13vw;
+    height: 13vw;
+    background-color: trasparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    margin-left: 52%;
+    margin-top: 16%;
+    z-index: 10;
+  }
+  .barCube6 .graybar6 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 3%;
+    width: auto;
+    background-color: #C62D3E;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+  }
+  .container-fluid {
+    overflow: hidden;
+  }
+  .navbar, .navbar-expand-md, .navbar-light {
+    background-color: transparent;
+    margin: 0;
+    opacity: 0;
+  }
+  a.navbar-brand {
+    height: 20%;
+    width: 20vw;
+    position: relative;
+  }
+  a.navbar-brand img {
+    width: 11vh;
+  }
+  .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.9rem;
+  }
+  .title {
+    font-family: 'Noto Sans TC','Microsoft Yahei','Microsoft Yahei Bold';
+    margin-left: 2rem;
+    color: white;
+    font-weight: 900;
+    font-size: 1.3rem;
+  }
+  .navbar-light, .navbar-nav, .nav-link {
+    color: white;
+  }
+  .explore {
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 83%;
+    color: #fff;
+    font-size: 1.5vw;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .explore:after {
+    content: "V";
+    display: block;
+    -webkit-transform: scaleX(1.2) scaleY(0.5);
+            transform: scaleX(1.2) scaleY(0.5);
+    position: relative;
+    margin-left: 48%;
+  }
+  .explore.at_top {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=phone.css.map */
