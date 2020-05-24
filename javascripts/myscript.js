@@ -3,12 +3,12 @@
 
         var AllWidth = document.body.clientWidth; 
         if(AllWidth>=481){
-            
-            if ($(document).height() > $(window).height()) {
-                $("html").addClass("noscroll");
-            }else{
-                $("html").addClass("fixWindow"); 
-            }
+
+            // if ($(document).height() > $(window).height()) {
+            //     $("html").addClass("noscroll");
+            // }else{
+            //     $("html").addClass("fixWindow"); 
+            // }
 
             for (var i=0;i<=7;i++){
                 $(".barCube1").append($("<div class='graybar1'></div>"))
@@ -466,13 +466,13 @@ window.onload=function(){
                 clearInterval(toRight);
             },5000)
             
-            var clearLcok = setInterval(function(){
-                if ($(document).height() > $(window).height()) {
-                    $("html").removeClass("noscroll");
-                }else{
-                    $("html").removeClass("fixWindow");
-                }
-            },5500)
+            // var clearLcok = setInterval(function(){
+            //     if ($(document).height() > $(window).height()) {
+            //         $("html").removeClass("noscroll");
+            //     }else{
+            //         $("html").removeClass("fixWindow");
+            //     }
+            // },5500)
 
         
             $(".nav-link").css("color","white");
