@@ -1485,6 +1485,7 @@ section#section_banner {
   background-color: transparent;
   margin: 0;
   opacity: 0;
+  border-bottom: solid 0.5px white;
 }
 
 a.navbar-brand {
