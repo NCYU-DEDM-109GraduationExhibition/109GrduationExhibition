@@ -1547,4 +1547,15 @@ a.navbar-brand img {
 .navbar-nav {
   margin-right: 13%;
 }
+
+html.noscroll {
+  position: fixed;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+html.fixWindow {
+  position: fixed;
+  width: 100%;
+}
 /*# sourceMappingURL=mystyle.css.map */

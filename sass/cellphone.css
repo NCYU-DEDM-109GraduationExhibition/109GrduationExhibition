@@ -1807,5 +1807,14 @@
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
+  html.noscroll {
+    position: fixed;
+    overflow-y: scroll;
+    width: 100%;
+  }
+  html.fixWindow {
+    position: fixed;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=cellphone.css.map */

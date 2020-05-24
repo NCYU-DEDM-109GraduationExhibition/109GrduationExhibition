@@ -1,5 +1,10 @@
 
     $(function(){
+        if ($(document).height() > $(window).height()) {
+            $("html").addClass("noscroll");
+        }else{
+            $("html").addClass("fixWindow"); 
+        }
         var AllWidth = document.body.clientWidth; 
         if(AllWidth>=481){
             for (var i=0;i<=7;i++){
@@ -457,7 +462,15 @@ window.onload=function(){
                 },2000,"easeOutQuart")
                 clearInterval(toRight);
             },5000)
-        
+            
+            var clearLcok = setInterval(function(){
+                if ($(document).height() > $(window).height()) {
+                    $("html").removeClass("noscroll");
+                }else{
+                    $("html").removeClass("fixWindow");
+                }
+            },5500)
+
         
             $(".nav-link").css("color","white");
             var NavBar = setInterval(function(){
