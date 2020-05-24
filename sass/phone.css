@@ -1423,5 +1423,11 @@
   .explore.at_top {
     opacity: 1;
   }
+  .dropdown-menu {
+    background-color: #c30d23;
+  }
+  .dropdown-item {
+    color: white;
+  }
 }
 /*# sourceMappingURL=phone.css.map */

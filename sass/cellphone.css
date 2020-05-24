@@ -1807,5 +1807,11 @@
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
+  .dropdown-menu {
+    background-color: #c30d23;
+  }
+  .dropdown-item {
+    color: white;
+  }
 }
 /*# sourceMappingURL=cellphone.css.map */
