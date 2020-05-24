@@ -118,7 +118,7 @@ nav.navbar.at_top {
   #header_index .stick_lb_l {
     background-color: #c30d23;
     left: 12%;
-    bottom: 15%;
+    bottom: 10%;
     -webkit-box-shadow: 0.5vw 0.5vh #40220F;
     box-shadow: 0.5vw 0.5vh #40220F; }
   #header_index .stick_rt_s, #header_index .stick_lb_s {
@@ -156,7 +156,7 @@ nav.navbar.at_top {
     -webkit-box-shadow: 0.3vw 0.4vh #931e23;
     box-shadow: 0.3vw 0.4vh #931e23;
     left: 8%;
-    bottom: 8%; }
+    bottom: 2%; }
   #header_index .streak_rt {
     width: 12vw;
     height: 18vh;
@@ -389,7 +389,7 @@ section#section_final {
     width: 10vw;
     height: 25vw;
     position: absolute;
-    right: 2%;
+    right: -2%;
     top: 7%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -401,8 +401,8 @@ section#section_final {
       background-color: white;
       float: left;
       margin: 8%;
-      width: 1.5vw;
-      height: 1.5vw; }
+      width: 0.9vw;
+      height: 0.9vw; }
   section#section_final .final, section#section_final .motivation {
     margin: 150px 0px 0px 0px; }
   section#section_final .final {
