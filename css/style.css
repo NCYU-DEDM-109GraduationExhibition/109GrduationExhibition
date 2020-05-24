@@ -119,12 +119,12 @@ nav.navbar.at_top {
     background-color: #c30d23;
     left: 12%;
     bottom: 15%;
-    -webkit-box-shadow: 0.5vw 0.5vh #931e23;
-    box-shadow: 0.5vw 0.5vh #931e23; }
+    -webkit-box-shadow: 0.5vw 0.5vh #40220F;
+    box-shadow: 0.5vw 0.5vh #40220F; }
   #header_index .stick_rt_s, #header_index .stick_lb_s {
     width: 10%;
     height: 2.5vw;
-    border: 0.6vw solid #40210f;
+    border: 0.6vw solid #40220F;
     border-radius: 25px;
     position: absolute;
     overflow: hidden; }
