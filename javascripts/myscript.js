@@ -18,6 +18,8 @@
         })
         var AllWidth = document.body.clientWidth; 
         if(AllWidth>=481){
+            $("html").addClass("noscroll");
+            $("html").addClass("fixWindow"); 
             for (var i=0;i<=7;i++){
                 $(".barCube1").append($("<div class='graybar1'></div>"))
             }
@@ -234,8 +236,7 @@ var AllWidth = document.body.clientWidth;
             $(".Camera").remove();
     }
     if(AllWidth>=481){
-        $("html").addClass("noscroll");
-        $("html").addClass("fixWindow"); 
+
         // document.getElementById("redBG").addEventListener("transitionend", rmlock);
         // function rmlock(){
         //     $("html").removeClass("noscroll");
