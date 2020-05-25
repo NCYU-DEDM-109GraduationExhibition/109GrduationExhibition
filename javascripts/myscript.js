@@ -4,11 +4,7 @@
         var AllWidth = document.body.clientWidth; 
         if(AllWidth>=481){
 
-            // if ($(document).height() > $(window).height()) {
-            //     $("html").addClass("noscroll");
-            // }else{
-            //     $("html").addClass("fixWindow"); 
-            // }
+
 
             for (var i=0;i<=7;i++){
                 $(".barCube1").append($("<div class='graybar1'></div>"))
@@ -260,6 +256,13 @@ window.onload=function(){
         // $(".Camera").add();
     }
     if(AllWidth>=481){
+        $("html").addClass("noscroll");
+        $("html").addClass("fixWindow"); 
+        var lock = setInterval(function(){
+            $("html").removeClass("noscroll");
+            $("html").removeClass("fixWindow"); 
+        },5500)
+
             // --------------------網頁動畫--------------------//
             var CubeFadeIn = setInterval(function(){
                 $(".barCube1>.graybar1").css("animation-name","fadeIn");
@@ -473,8 +476,6 @@ window.onload=function(){
             //         $("html").removeClass("fixWindow");
             //     }
             // },5500)
-
-        
             $(".nav-link").css("color","white");
             var NavBar = setInterval(function(){
                 $(".navbar").css("opacity","1");
