@@ -96,7 +96,7 @@
         justify-content: space-around;
     padding: 3% 10% 3% 10%;
   }
-  section#section_click .col-md, section#section_click .col-lg, section#section_click .col-xl-2 {
+  section#section_click .col-md-2, section#section_click .col-lg-2, section#section_click .col-xl-2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -112,7 +112,7 @@
             align-items: center;
     margin: 0 1rem 0 1rem;
   }
-  section#section_click .col-md .text, section#section_click .col-lg .text, section#section_click .col-xl-2 .text {
+  section#section_click .col-md-2 .text, section#section_click .col-lg-2 .text, section#section_click .col-xl-2 .text {
     text-align: center;
     font-family: 'Noto Sans TC','Microsoft Yahei Bold','Microsoft Yahei';
     font-weight: 900;
