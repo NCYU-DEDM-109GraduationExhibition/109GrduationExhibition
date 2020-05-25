@@ -975,6 +975,7 @@ section#section_final .final {
 .navbar, .navbar-expand-md, .navbar-light {
   background-color: transparent;
   margin: 0;
+  border-bottom: solid 0.5px white;
 }
 
 a.navbar-brand {
@@ -1013,6 +1014,7 @@ a.navbar-brand {
       .navbar, .navbar-expand-md, .navbar-light {
         background-color: transparent;
         margin: 0;
+        border-bottom: solid 0.5px white;
       }
       a.navbar-brand {
         height: 20%;
