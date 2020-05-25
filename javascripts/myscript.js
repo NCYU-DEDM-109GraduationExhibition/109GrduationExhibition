@@ -103,6 +103,8 @@
         }
         //ready手機
         if(AllWidth<=481){
+            $("html").removeClass("noscroll");
+            $("html").removeClass("fixWindow"); 
             for (var i=0;i<=7;i++){
                 $(".barCube3").append($("<div class='graybar3'></div>"))
             }
@@ -798,6 +800,8 @@ $(window).resize(function(){
         $("#container-fluid1").css("height",bannerContainerHeight+adjust+"px");
         ;}
         if(AllWidth<=481){
+            $("html").removeClass("noscroll");
+            $("html").removeClass("fixWindow"); 
             // $(".barCube3").remove();
             // $(".blueDot").remove();
             // $(".blueDotSV").remove();
