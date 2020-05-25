@@ -886,7 +886,7 @@ section#section_final .final {
   section#section_final .motivation h3 {
     text-align: center;
   }
-  section#section_final .motivation p {
+  section#section_final .motivation p:first-child {
     display: none;
   }
   section#section_final .motivation .word {
