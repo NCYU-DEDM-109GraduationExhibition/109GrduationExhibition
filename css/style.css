@@ -632,12 +632,13 @@ section#section_final .switchbox .switch .line_center {
 section#section_final .final {
   padding-right: 5vw;
 }
-
+/* @media screen and (max-width: 1024px) {
 .word {
   opacity: 0;
-}
+} */
 
 @media screen and (max-width: 1024px) {
+  
   html p, body p {
     font-size: 1rem;
   }
