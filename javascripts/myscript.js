@@ -131,7 +131,7 @@
             // $("#section_banner").remove();
             $(".navbar").addClass("fixed-top");
             $(".navbar").css("opacity","1");
-            $(".explore").css("top","95%");
+            $(".explore").css("top","93%");
             // $(".barCube3").remove();
             // $(".blueDot").remove();
             // $(".blueDotSV").remove();
@@ -228,32 +228,7 @@ window.onload=function(){
             $(".blueEyeSV").remove();
             $(".Camera").remove();
     }else if (AllWidth>481){
-        // $(".navbar").removeClass("fixed-top");
-        // $(".barCube3").remove();
-        // $(".blueDot").remove();
-        // $(".blueDotSV").remove();
-        // $(".designText").remove();
-        // $(".blueEye").remove();
-        // $(".redBar").remove();
-        // $(".redBarSV").remove();
-        // $(".redEye").remove();
-        // $(".redEyeSV").remove();
-        // $(".zeroTemp").add();
-        // $(".zeroTemp2").add();
-        // $(".redBG").add();
-        // $(".designText2").add();
-        // $(".whiteBar").add();
-        // $(".whiteBarSV").add();
-        // $(".blueBG").add();
-        // $(".whiteBar2").add();
-        // $(".whiteBar2SV").add();
-        // $(".dotCube1").add();
-        // $(".dotCube2").add();
-        // $(".dotCube3").add();
-        // $(".dotCube4").add();
-        // $(".blueEye").add();
-        // $(".blueEyeSV").add();
-        // $(".Camera").add();
+
     }
     if(AllWidth>=481){
         $("html").addClass("noscroll");
@@ -497,9 +472,9 @@ $(window).scroll(function (e) {
     // var AllWidth = document.body.clientWidth; 
     if ($(window).scrollTop() <= 0){
         $(".explore").addClass("at_top");
-        $(".navbar").removeClass("fixed-top");
+        $(".navbar").addClass("fixed-top");
         $(".navbar").css("opacity","1");
-        $(".explore").css("top","83%");
+        $(".explore").css("top","93%");
         // if(AllWidth<=481){
         //     $(".designText2").css("margin-top","125%");
         // }
@@ -508,7 +483,7 @@ $(window).scroll(function (e) {
     else if($(window).scrollTop() > 0){        
         $(".explore").removeClass("at_top");
         $(".navbar").addClass("fixed-top");
-        $(".explore").css("top","83%");
+        $(".explore").css("top","93%");
         // if(AllWidth<=481){
         //     $(".designText2").css("margin-top","140.5%");
         // }
