@@ -1582,10 +1582,10 @@
   }
   .title {
     font-family: 'Noto Sans TC','Microsoft Yahei','Microsoft Yahei Bold';
-    margin-left: 2rem;
+    margin-left: 13vw;
     color: white;
     font-weight: 900;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .navbar-light, .navbar-nav, .nav-link {
     color: white;

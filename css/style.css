@@ -15,7 +15,7 @@ html p, body p {
 nav.navbar {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  padding: 8px 16px;
+  padding: 17px 16px;
 }
 
 nav.navbar a {
@@ -29,7 +29,7 @@ nav.navbar a {
 
 nav.navbar.at_top {
   background-color: #c30d23;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
 }
 
 nav.navbar.at_top a, nav.navbar.at_top a:visited {
@@ -41,6 +41,10 @@ nav.navbar.at_top a, nav.navbar.at_top a:visited {
   padding: 0;
   width: 30%;
   line-height: inherit;
+}
+.navbar-brand {
+  height: auto;
+  width: auto;
 }
 
 .nav_icon {
@@ -663,9 +667,7 @@ section#section_final .final {
   .navbar-brand {
     width: 20%;
   }
-  .nav_icon {
-    width: 95%;
-  }
+
   .nav_icon, .title {
     margin-top: 1vw;
   }
@@ -748,10 +750,11 @@ section#section_final .final {
   }
   
   .title {
-    font-size: 1.5rem;
+    font-size: 16px;
     font-weight: 900;
     -webkit-transform: translateX(10%);
             transform: translateX(10%);
+    margin-left: 13vw;
   }
   .navbar-brand {
     width: 18%;
