@@ -17,13 +17,7 @@
             $(".Home").css("color","white")
         })
         var AllWidth = document.body.clientWidth;
-        var XWidth = document.body.clientWidth;
-        console.log(XWidth);
-        if(XWidth=375){
-            $("#section_banner").css("max-height","82%");
-        }else{
-            $("#section_banner").css("max-height","auto");
-        }
+    
         if(AllWidth>=481){
             $("html").addClass("noscroll");
             $("html").addClass("fixWindow"); 
