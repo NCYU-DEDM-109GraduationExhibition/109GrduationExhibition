@@ -933,6 +933,42 @@ section#section_final .final {
     margin-right: auto;
     margin-left: auto;
   }
+  section#section_final .switchbox {
+    width: 20vh;
+    height: 11vh;
+    position: absolute;
+    right: -5%;
+    bottom: 0;
+    overflow: hidden;}
+    section#section_final .switchbox .switch {
+      position: absolute;
+      width: 16vh;
+      height: 16vh;
+      border-radius: 50%;
+      border: 3vh solid;
+      opacity: 0.2;
+      border-color: transparent grey grey grey; }
+      section#section_final .switchbox .switch .circle_l, section#section_final .switchbox .switch .circle_r {
+        width: 3vh;
+        height: 3vh;
+        background-color: grey;
+        border-radius: 100%; }
+      section#section_final .switchbox .switch .circle_l {
+        position: absolute;
+        left: -1vh;
+        top: -1vh; }
+      section#section_final .switchbox .switch .circle_r {
+        position: absolute;
+        right: -1vh;
+        top: -1vh; }
+      section#section_final .switchbox .switch .line_center {
+        width: 3vh;
+        height: 10vh;
+        background-color: grey;
+        border-radius: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -5vh; } 
 }
 /*# sourceMappingURL=stylell.css.map */
 
