@@ -910,7 +910,7 @@ section#section_final .final {
     font-size: 1rem;
     margin-right: auto;
     margin-left: auto;
-    text-align-last: left;
+    text-align: left;
   }
   section#section_final .final {
     text-align: center;
