@@ -137,7 +137,6 @@
   }
   .CameraCell {
     position: absolute;
-    z-index: 10;
     width: 20%;
     margin-left: 0%;
     margin-top: -16%;
