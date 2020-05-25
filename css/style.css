@@ -52,15 +52,15 @@ nav.navbar.at_top a, nav.navbar.at_top a:visited {
 }
 
 .nav_icon {
-  -webkit-transform: translateX(-90%);
-          transform: translateX(-90%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .title {
   font-size: 19px;
   font-weight: 900;
-  -webkit-transform: translateX(-15%);
-          transform: translateX(-15%);
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
 }
 
 .dropdown-menu {
@@ -736,6 +736,17 @@ section#section_final .final {
 }
 
 @media screen and (max-width: 414px) {
+  .nav_icon {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  
+  .title {
+    font-size: 19px;
+    font-weight: 900;
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
   .navbar-brand {
     width: 18%;
   }
