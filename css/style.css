@@ -13,7 +13,7 @@ html p, body p {
   font-size: 1.5rem;
 }
 
-nav.navbar {
+/* nav.navbar {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 0.5rem 1rem;
@@ -44,7 +44,7 @@ nav.navbar.at_top a, nav.navbar.at_top a:visited {
 }
 nav.navbar.at_top a:hover{
   color: black;
-  font-family: 'Microsoft Yahei Bold','Microsoft Yahei', 'Noto Sans TC',serif;
+    font-family: 'Microsoft Yahei Bold','Microsoft Yahei', 'Noto Sans TC',serif;
   font-weight: bold;
 }
 
@@ -90,7 +90,7 @@ nav.navbar.at_top a:hover{
 
 .navbar-default .navbar-nav > li > a {
   color: white;
-}
+} */
 
 #header_index {
   position: relative;
@@ -383,13 +383,13 @@ section#section_intro {
   padding: 60px 0px;
 }
 
-section#section_intro ol.flex-control-nav a {
+/* section#section_intro ol.flex-control-nav a {
   background-color: #fff;
 }
 
 section#section_intro ol.flex-control-nav a.flex-active {
   background-color: grey;
-}
+} */
 
 section#section_intro .round_lt_r {
   width: 160px;
@@ -606,27 +606,27 @@ section#section_final .round_lb .circle {
 }
 
 section#section_final .switchbox {
-  width: 20vh;
-  height: 11vh;
+  width: 35vh;
+  height: 28vh;
   position: absolute;
-  right: -5%;
+  right: 0;
   bottom: 0;
   overflow: hidden;
 }
 
 section#section_final .switchbox .switch {
   position: absolute;
-  width: 16vh;
-  height: 16vh;
+  width: 33vh;
+  height: 33vh;
   border-radius: 50%;
-  border: 3vh solid;
+  border: 5.5vh solid;
   opacity: 0.2;
   border-color: transparent grey grey grey;
 }
 
 section#section_final .switchbox .switch .circle_l, section#section_final .switchbox .switch .circle_r {
-  width: 3vh;
-  height: 3vh;
+  width: 5.5vh;
+  height: 5.5vh;
   background-color: grey;
   border-radius: 100%;
 }
@@ -634,18 +634,18 @@ section#section_final .switchbox .switch .circle_l, section#section_final .switc
 section#section_final .switchbox .switch .circle_l {
   position: absolute;
   left: -1vh;
-  top: -1vh;
+  top: -2vh;
 }
 
 section#section_final .switchbox .switch .circle_r {
   position: absolute;
   right: -1vh;
-  top: -1vh;
+  top: -2vh;
 }
 
 section#section_final .switchbox .switch .line_center {
-  width: 3vh;
-  height: 10vh;
+  width: 5.5vh;
+  height: 20vh;
   background-color: grey;
   border-radius: 30px;
   margin-right: auto;
@@ -675,14 +675,19 @@ section#section_final .final {
   }
 }
 
+
+
+
+
+
 @media screen and (max-width: 800px) {
-  .navbar-brand {
+  /* .navbar-brand {
     width: 20%;
   }
 
   .nav_icon, .title {
     margin-top: 1vw;
-  }
+  } */
   section#section_intro .introduce h3 {
     text-align: center;
   }
@@ -726,9 +731,9 @@ section#section_final .final {
 }
 
 @media screen and (max-width: 640px) {
-  .navbar-brand {
+  /* .navbar-brand {
     width: 15%;
-  }
+  } */
   section#section_intro .introduce h3 {
     text-align: center;
   }
@@ -756,21 +761,21 @@ section#section_final .final {
 }
 
 @media screen and (max-width: 414px) {
-  .nav_icon {
+  /* .nav_icon {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
-  
-  .title {
+   */
+  /* .title {
     font-size: 16px;
     font-weight: 900;
     -webkit-transform: translateX(10%);
             transform: translateX(10%);
     margin-left: 13vw;
-  }
-  .navbar-brand {
+  } */
+  /* .navbar-brand {
     width: 18%;
-  }
+  } */
   header#header_index {
     padding: 25vw 0px;
   }
@@ -851,34 +856,34 @@ section#section_final .final {
     margin: 6%;
   }
   header#header_index .switchbox_header {
-    width: 35vh;
-    height: 28vh;
+    width: 20vh;
+    height: 11vh;
     position: absolute;
-    left: 0;
-    top: 6%;
+    right: -5%;
+    bottom: 0%;
     overflow: hidden;
   }
   header#header_index .switchbox_header .switch {
     position: absolute;
-    width: 20vh;
-    height: 20vh;
+    width: 16vh;
+    height: 16vh;
     border-radius: 50%;
-    border: 3.5vh solid;
+    border: 3vh solid;
     opacity: 0.2;
     border-color: transparent grey grey grey;
   }
   header#header_index .switchbox_header .switch .line_center {
-    width: 3.5vh;
+    width: 3vh;
     height: 10vh;
     background-color: grey;
     border-radius: 30px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: -3vh;
+    margin-top: -5vh;
   }
   header#header_index .switchbox_header .switch .circle_l, header#header_index .switchbox_header .switch .circle_r {
-    width: 3.5vh;
-    height: 3.5vh;
+    width: 3vh;
+    height: 3vh;
     background-color: grey;
     border-radius: 100%;
   }
@@ -930,3 +935,78 @@ section#section_final .final {
   }
 }
 /*# sourceMappingURL=stylell.css.map */
+
+.navbar, .navbar-expand-md, .navbar-light {
+  background-color: transparent;
+  margin: 0;
+}
+
+a.navbar-brand {
+  height: 20%;
+  width: 20vw;
+  position: relative; }
+  a.navbar-brand img {
+    width: 11vh; }
+
+.navbar-brand {
+  display: flex;
+  font-size: 0.9rem; }
+
+.title {
+  font-family: 'Noto Sans TC','Microsoft Yahei','Microsoft Yahei Bold';
+  margin-left: 2rem;
+  color: white;
+  font-weight: 900;
+  font-size: 1.3rem; }
+
+.navbar-light, .navbar-nav, .nav-link {
+  color: white; }
+
+.navbar-nav {
+    margin-right: 10%; }
+
+.dropdown-menu {
+      background-color: #c30d23;
+    }
+    
+    .dropdown-item {
+      color: white;
+    }
+
+    @media screen and (man-width: 481px) {
+      .navbar, .navbar-expand-md, .navbar-light {
+        background-color: transparent;
+        margin: 0;
+      }
+      a.navbar-brand {
+        height: 20%;
+        width: 20vw;
+        position: relative;
+      }
+      a.navbar-brand img {
+        width: 11vh;
+      }
+      .navbar-brand {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 0.9rem;
+      }
+      .title {
+        font-family: 'Noto Sans TC','Microsoft Yahei','Microsoft Yahei Bold';
+        margin-left: 2rem;
+        color: white;
+        font-weight: 900;
+        font-size: 1.3rem;
+      }
+      .navbar-light, .navbar-nav, .nav-link {
+        color: white;
+      }
+      .dropdown-menu {
+        background-color: #c30d23;
+      }
+      
+      .dropdown-item {
+        color: white;
+      }
+    }

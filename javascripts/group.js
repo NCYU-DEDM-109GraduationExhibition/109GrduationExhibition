@@ -13,6 +13,5 @@ $(document).ready(function () {
         itemWidth: 5000,
         itemMargin: 5
     });
-
-    $('.dropdown-menu>li>a').css("color","white");
+    $(".nav-link").css("color","white")
 });
