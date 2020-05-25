@@ -35,6 +35,9 @@ nav.navbar.at_top {
 nav.navbar.at_top a, nav.navbar.at_top a:visited {
   color: white;
 }
+nav.navbar.at_top a:hover{
+  color: black;
+}
 
 .navbar-brand {
   position: relative;

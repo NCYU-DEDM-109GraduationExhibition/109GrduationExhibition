@@ -1576,4 +1576,8 @@ html.fixWindow {
 .flex-direction-nav a:before {
   font-size: 35px;
 }
+
+.navbar a:hover {
+  color: black;
+}
 /*# sourceMappingURL=mystyle.css.map */

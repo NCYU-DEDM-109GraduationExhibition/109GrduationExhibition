@@ -1,5 +1,21 @@
 
     $(function(){
+        $(".nav-link").css("color","white")
+        $(".Team").hover(function(){
+            $(".Team").css("color","black")
+        },function(){
+            $(".Team").css("color","white")
+        })
+        $(".Works").hover(function(){
+            $(".Works").css("color","black")
+        },function(){
+            $(".Works").css("color","white")
+        })
+        $(".Home").hover(function(){
+            $(".Home").css("color","black")
+        },function(){
+            $(".Home").css("color","white")
+        })
         var AllWidth = document.body.clientWidth; 
         if(AllWidth>=481){
             for (var i=0;i<=7;i++){
