@@ -223,10 +223,16 @@ window.onload=function(){
     if(AllWidth>=481){
         $("html").addClass("noscroll");
         $("html").addClass("fixWindow"); 
-        var lock = setInterval(function(){
-            $("html").removeClass("noscroll");
-            $("html").removeClass("fixWindow"); 
-        },5500)
+        // document.getElementById("redBG").addEventListener("transitionend", rmlock);
+        // function rmlock(){
+        //     $("html").removeClass("noscroll");
+        //     $("html").removeClass("fixWindow"); 
+        // }
+
+        // var lock = setInterval(function(){
+        //     $("html").removeClass("noscroll");
+        //     $("html").removeClass("fixWindow"); 
+        // },5500)
 
             // --------------------網頁動畫--------------------//
             var CubeFadeIn = setInterval(function(){
@@ -399,7 +405,10 @@ window.onload=function(){
                 let change = -100+"vw";
                 $(".blueBG").animate({
                     left: "-="+change
-                },2000,"easeOutQuart")
+                },2000,"easeOutQuart",function(){
+                    $("html").removeClass("noscroll");
+                    $("html").removeClass("fixWindow"); 
+                })
                 // "easeInOutCubic"
                 $(".redBarSV").animate({
                     left: "-="+change
@@ -477,7 +486,6 @@ $(window).scroll(function (e) {
         // }
     }
 
-    
 });
 
 
