@@ -1433,5 +1433,8 @@
     padding: 0;
     margin: 0;
   }
+  .flex-direction-nav a:before {
+    font-size: 35px;
+  }
 }
 /*# sourceMappingURL=phone.css.map */

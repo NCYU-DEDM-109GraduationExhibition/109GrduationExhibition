@@ -1813,5 +1813,8 @@
   .dropdown-item {
     color: white;
   }
+  .flex-direction-nav a:before {
+    font-size: 35px;
+  }
 }
 /*# sourceMappingURL=cellphone.css.map */
