@@ -569,7 +569,9 @@ section#section_final .round_lb {
   -webkit-transform: translateY(30%);
           transform: translateY(30%);
 }
-
+.word {
+  opacity: 0;
+}
 section#section_final .round_lb .circle {
   width: 20px;
   height: 20px;
@@ -632,10 +634,7 @@ section#section_final .switchbox .switch .line_center {
 section#section_final .final {
   padding-right: 5vw;
 }
-/* @media screen and (max-width: 1024px) {
-.word {
-  opacity: 0;
-} */
+
 
 @media screen and (max-width: 1024px) {
   
