@@ -1,6 +1,7 @@
 * {
   color: #fff;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Sans TC','Microsoft Yahei Bold','Microsoft Yahei', sans-serif;
+  
 }
 
 html, body {
@@ -16,6 +17,8 @@ nav.navbar {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 0.5rem 1rem;
+  font-family: serif,'Microsoft Yahei Bold','Microsoft Yahei', 'Noto Sans TC';
+  font-weight: bold;
 }
 
 nav.navbar a {
@@ -30,13 +33,19 @@ nav.navbar a {
 nav.navbar.at_top {
   background-color: #c30d23;
   padding: 0.5rem 1rem;
+  font-family: 'Microsoft Yahei Bold','Microsoft Yahei', 'Noto Sans TC',serif;
+  font-weight: bold;
 }
 
 nav.navbar.at_top a, nav.navbar.at_top a:visited {
   color: white;
+  font-family: 'Microsoft Yahei Bold','Microsoft Yahei', 'Noto Sans TC',serif;
+  font-weight: bold;
 }
 nav.navbar.at_top a:hover{
   color: black;
+  font-family: 'Microsoft Yahei Bold','Microsoft Yahei', 'Noto Sans TC',serif;
+  font-weight: bold;
 }
 
 .navbar-brand {
