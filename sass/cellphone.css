@@ -84,7 +84,7 @@
     margin: 0;
     padding: 0;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     background: -webkit-gradient(linear, left bottom, left top, from(#c30d23), color-stop(50%, #c30d23), color-stop(50%, #2ea7e0), to(#2ea7e0));
     background: linear-gradient(0deg, #c30d23 0%, #c30d23 50%, #2ea7e0 50%, #2ea7e0 100%);
   }
