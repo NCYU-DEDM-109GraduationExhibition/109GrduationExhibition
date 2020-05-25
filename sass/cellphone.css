@@ -168,7 +168,7 @@
     color: #AD1F24;
     font-weight: bold;
     margin-left: 47.5%;
-    margin-top: 140.5%;
+    margin-top: 133.5%;
     font-family: 'Microsoft Yahei','Microsoft Yahei Bold', 'Noto Sans TC';
   }
   .dedmBG {
@@ -679,7 +679,7 @@
         flex-wrap: wrap;
     position: absolute;
     margin-left: 80%;
-    margin-top: 148%;
+    margin-top: 143%;
     z-index: 3;
     -webkit-transform: scale(1.15);
             transform: scale(1.15);
@@ -1597,7 +1597,7 @@
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    top: 93%;
+    top: 88%;
     color: #fff;
     font-size: 1rem;
     opacity: 0;

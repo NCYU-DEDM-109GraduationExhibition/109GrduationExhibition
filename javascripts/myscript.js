@@ -144,7 +144,7 @@
             // $("#section_banner").remove();
             $(".navbar").addClass("fixed-top");
             $(".navbar").css("opacity","1");
-            $(".explore").css("top","93%");
+            $(".explore").css("top","88%");
             // $(".barCube3").remove();
             // $(".blueDot").remove();
             // $(".blueDotSV").remove();
@@ -773,7 +773,7 @@ $(window).scroll(function (e) {
         $(".explore").addClass("at_top");
         $(".navbar").addClass("fixed-top");
         $(".navbar").css("opacity","1");
-        $(".explore").css("top","93%");
+        $(".explore").css("top","88%");
         // if(AllWidth<=481){
         //     $(".designText2").css("margin-top","125%");
         // }
@@ -782,7 +782,7 @@ $(window).scroll(function (e) {
     else if($(window).scrollTop() > 0){        
         $(".explore").removeClass("at_top");
         $(".navbar").addClass("fixed-top");
-        $(".explore").css("top","93%");
+        $(".explore").css("top","88%");
         // if(AllWidth<=481){
         //     $(".designText2").css("margin-top","140.5%");
         // }
@@ -815,7 +815,7 @@ $(window).resize(function(){
             $(".zeroTemp").remove();
             $(".zeroTemp2").remove();
             $(".redBG").remove();
-            $(".designText2").remove();
+            // $(".designText2").remove();
             $(".whiteBar").remove();
             $(".whiteBarSV").remove();
             $(".blueBG").remove();
