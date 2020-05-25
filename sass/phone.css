@@ -1405,7 +1405,7 @@
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    top: 93%;
+    top: 83%;
     color: #fff;
     font-size: 1.5vw;
     opacity: 0;
@@ -1428,6 +1428,10 @@
   }
   .dropdown-item {
     color: white;
+  }
+  .navbar-brand {
+    padding: 0;
+    margin: 0;
   }
 }
 /*# sourceMappingURL=phone.css.map */
