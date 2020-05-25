@@ -572,6 +572,9 @@ section#section_final .round_lb {
 .word {
   opacity: 0;
 }
+.word2 {
+  opacity: 1;
+}
 section#section_final .round_lb .circle {
   width: 20px;
   height: 20px;
