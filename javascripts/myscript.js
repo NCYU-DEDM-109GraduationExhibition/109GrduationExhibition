@@ -493,19 +493,24 @@ window.onload=function(){
 
 
 $(window).scroll(function (e) {
+    // var AllWidth = document.body.clientWidth; 
     if ($(window).scrollTop() <= 0){
         $(".explore").addClass("at_top");
         $(".navbar").removeClass("fixed-top");
         $(".navbar").css("opacity","1");
         $(".explore").css("top","83%");
-        $(".designText2").css("margin-top","125%");
+        // if(AllWidth<=481){
+        //     $(".designText2").css("margin-top","125%");
+        // }
+        
     }
     else if($(window).scrollTop() > 0){        
         $(".explore").removeClass("at_top");
         $(".navbar").addClass("fixed-top");
         $(".explore").css("top","83%");
-        $(".designText2").css("margin-top","140.5%");
-
+        // if(AllWidth<=481){
+        //     $(".designText2").css("margin-top","140.5%");
+        // }
     }
 
     
