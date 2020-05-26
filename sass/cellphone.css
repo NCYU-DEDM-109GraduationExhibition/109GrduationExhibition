@@ -1060,9 +1060,8 @@
     width: 2.5vw;
     height: 2.5vw;
     background-color: #2CA6E0;
-    margin-left: 89%;
-    margin-top: 49.5%;
-    z-index: 50;
+    left: 11.5%;
+    top: 19.8%;
     border-radius: 50vw;
     border: solid #40220F 0.8vw;
     -webkit-box-shadow: 0.1rem 0.1rem 0 0 #24749A;
@@ -1107,8 +1106,8 @@
     width: 5vw;
     height: 2.4vw;
     background-color: #2CA6E0;
-    margin-left: 83%;
-    margin-top: 55.5%;
+    left: 11.3%;
+    top: 20.8%;
     z-index: 50;
     border-radius: 50vh;
     border: solid #40220F 0.9vw;
