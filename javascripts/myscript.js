@@ -238,6 +238,10 @@ var AllWidth = document.body.clientWidth;
             $(".blueEyeSV").remove();
             $(".Camera").remove();
     }
+    if(481<=AllWidth<=800){
+        $("html").removeClass("noscroll");
+        $("html").removeClass("fixWindow"); 
+    }
     if(AllWidth>=481){
 
         // document.getElementById("redBG").addEventListener("transitionend", rmlock);
