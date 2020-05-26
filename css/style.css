@@ -673,6 +673,12 @@ section#section_final .final {
   section#section_final .motivation p {
     font-size: 1rem;
   }
+  section#section_intro .introduce p{
+    display: none;
+  }
+  .word{
+    opacity: 1;
+  }
 }
 
 @media screen and (min-width: 481px) {
@@ -715,7 +721,7 @@ section#section_final .final {
     text-align: center;
   }
   section#section_final .two .button {
-    width: 60vw;
+    width: 30vw;
     margin-right: auto;
     margin-left: auto;
   }
@@ -725,6 +731,22 @@ section#section_final .final {
   section#section_final .motivation p {
     font-size: 1rem;
     text-align: center;
+  }
+  p.hide{
+    display: none;
+  }
+  .word2{
+    opacity: 1;
+    display: inline;
+  }
+  .introduce p{
+    display: none;
+    /* font-size: 0.8rem; */
+  }
+  .word{
+    opacity: 1;
+    display: block;
+    font-size: 1.5rem;
   }
 }
 
