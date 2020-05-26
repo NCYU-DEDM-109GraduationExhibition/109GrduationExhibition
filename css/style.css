@@ -657,7 +657,18 @@ section#section_final .final {
   padding-right: 5vw;
 }
 
-
+@media screen and (min-width: 1024px){
+  section#section_intro .introduce p {
+    font-size: 0.95rem;
+  }
+  .hide{
+    font-size: 0.95rem;
+  }
+  .word2{
+    display: none;
+    opacity: 0;
+  }
+}
 @media screen and (max-width: 1024px) {
   
   html p, body p {
@@ -679,20 +690,18 @@ section#section_final .final {
   .word{
     opacity: 1;
   }
+  .hide{
+    display: none;
+  }
+  .word2{
+    display: inline;
+    opacity: 1;
+  }
 }
 
 @media screen and (min-width: 481px) {
   
-  section#section_intro .introduce p {
-    font-size: 0.95rem;
-  }
-  .hide{
-    font-size: 0.95rem;
-  }
-  .word2{
-    display: none;
-    opacity: 0;
-  }
+
 }
 
 
