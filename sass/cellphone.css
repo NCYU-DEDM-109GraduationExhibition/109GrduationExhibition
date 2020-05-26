@@ -1606,6 +1606,7 @@
     opacity: 0;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    z-index: 15;
   }
   .explore:after {
     content: "V";
