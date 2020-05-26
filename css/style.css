@@ -675,7 +675,19 @@ section#section_final .final {
   }
 }
 
-
+@media screen and (min-width: 481px) {
+  
+  section#section_intro .introduce p {
+    font-size: 0.95rem;
+  }
+  .hide{
+    font-size: 0.95rem;
+  }
+  .word2{
+    display: none;
+    opacity: 0;
+  }
+}
 
 
 
