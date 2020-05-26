@@ -17,10 +17,11 @@
             $(".Home").css("color","white")
         })
         var AllWidth = document.body.clientWidth;
-    
+        $("html").addClass("noscroll");
+        $("html").addClass("fixWindow"); 
         if(AllWidth>=481){
-            $("html").addClass("noscroll");
-            $("html").addClass("fixWindow"); 
+            // $("html").addClass("noscroll");
+            // $("html").addClass("fixWindow"); 
             for (var i=0;i<=7;i++){
                 $(".barCube1").append($("<div class='graybar1'></div>"))
             }
@@ -238,23 +239,7 @@ var AllWidth = document.body.clientWidth;
             $(".blueEyeSV").remove();
             $(".Camera").remove();
     }
-    if(481<=AllWidth<=800){
-        $("html").removeClass("noscroll");
-        $("html").removeClass("fixWindow"); 
-    }
     if(AllWidth>=481){
-
-        // document.getElementById("redBG").addEventListener("transitionend", rmlock);
-        // function rmlock(){
-        //     $("html").removeClass("noscroll");
-        //     $("html").removeClass("fixWindow"); 
-        // }
-
-        // var lock = setInterval(function(){
-        //     $("html").removeClass("noscroll");
-        //     $("html").removeClass("fixWindow"); 
-        // },5500)
-
             // --------------------網頁動畫--------------------//
             var CubeFadeIn = setInterval(function(){
                 $(".barCube1>.graybar1").css("animation-name","fadeIn");
@@ -486,7 +471,14 @@ var AllWidth = document.body.clientWidth;
     }
     )
 
-
+window.onload=function(){
+    var AllWidth = document.body.clientWidth; 
+    if(AllWidth<800){
+        $("html").removeClass("noscroll");
+        $("html").removeClass("fixWindow"); 
+        console.log(AllWidth);
+    }
+}
 // window.onload=function(){
 //     var AllWidth = document.body.clientWidth; 
 //     if(AllWidth>=481){
@@ -805,8 +797,6 @@ $(window).resize(function(){
         $("#container-fluid1").css("height",bannerContainerHeight+adjust+"px");
         ;}
         if(AllWidth<=481){
-            $("html").removeClass("noscroll");
-            $("html").removeClass("fixWindow"); 
             // $(".barCube3").remove();
             // $(".blueDot").remove();
             // $(".blueDotSV").remove();
