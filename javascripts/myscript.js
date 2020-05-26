@@ -788,6 +788,18 @@ $(window).scroll(function (e) {
 
 
 $(window).resize(function(){
+    // var RE = setTimeout(() => {
+    //     location.reload();
+    // },1000);
+    // clearTimeout(RE);
+
+    // var func = function () {
+    //     location.reload();
+    //     func= function(){};
+    // }
+    // func();
+    // func();
+
     var AllWidth = document.body.clientWidth; 
     if(AllWidth>=481){        // 讓bannar caontainer隨著圖片大小變動00000000000000000000000000000
         // window.location.reload(" index.htnl ")
@@ -796,7 +808,7 @@ $(window).resize(function(){
         let adjust = -1.0;
         $("#container-fluid1").css("height",bannerContainerHeight+adjust+"px");
         ;}
-        if(AllWidth<=481){
+    //     if(AllWidth<=481){
             // $(".barCube3").remove();
             // $(".blueDot").remove();
             // $(".blueDotSV").remove();
@@ -806,22 +818,22 @@ $(window).resize(function(){
             // $(".redBarSV").remove();
             // $(".redEye").remove();
             // $(".redEyeSV").remove();
-            $(".zeroTemp").remove();
-            $(".zeroTemp2").remove();
-            $(".redBG").remove();
             // $(".designText2").remove();
-            $(".whiteBar").remove();
-            $(".whiteBarSV").remove();
-            $(".blueBG").remove();
-            $(".whiteBar2").remove();
-            $(".whiteBar2SV").remove();
-            $(".dotCube1").remove();
-            $(".dotCube2").remove();
-            $(".dotCube3").remove();
-            $(".dotCube4").remove();
-            $(".blueEye").remove();
-            $(".blueEyeSV").remove();
-            $(".Camera").remove();
-    }
+            // $(".zeroTemp").remove();
+            // $(".zeroTemp2").remove();
+            // $(".redBG").remove();
+            // $(".whiteBar").remove();
+            // $(".whiteBarSV").remove();
+            // $(".blueBG").remove();
+            // $(".whiteBar2").remove();
+            // $(".whiteBar2SV").remove();
+            // $(".dotCube1").remove();
+            // $(".dotCube2").remove();
+            // $(".dotCube3").remove();
+            // $(".dotCube4").remove();
+            // $(".blueEye").remove();
+            // $(".blueEyeSV").remove();
+            // $(".Camera").remove();
+    // }
     }
 )
